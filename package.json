@@ -18,8 +18,8 @@
     "url": "https://github.com/davidxv15/Tiny-Commerce/issues"
   },
   "homepage": "https://github.com/davidxv15/Tiny-Commerce#readme",
-  "description": "",
   "devDependencies": {
     "tailwindcss": "^4.1.0"
-  }
+  },
+  "description": ""
 }
