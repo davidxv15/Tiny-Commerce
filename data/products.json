@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "price": 19.99,
+      "image": "https://placekitten.com/300/200"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": "",
+      "price": 14.49,
+      "image": "https://placekitten.com/301/200"
+    },
+    {
+      "id": 3,
+      "name": "Tiny Top Hat (for pets)",
+      "description": "Because your cat deserves class.",
+      "price": 18.95,
+      "image": "https://placekitten.com/302/200"
+    }
+  ]
+  
