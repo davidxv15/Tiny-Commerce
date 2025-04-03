@@ -1,15 +1,15 @@
 [
     {
       "id": 1,
-      "name": "",
-      "description": "",
+      "name": "Hiking Vest",
+      "description": "Pet backpack for Cats and Dogs.",
       "price": 19.99,
       "image": "https://placekitten.com/300/200"
     },
     {
       "id": 2,
-      "name": "",
-      "description": "",
+      "name": "Rain Boots",
+      "description": "Paw protection for pets.",
       "price": 14.49,
       "image": "https://placekitten.com/301/200"
     },
