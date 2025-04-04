@@ -1,14 +1,27 @@
-/* Reset-ish baseline */
 :root {
-  --font-main: 'Poppins', sans-serif;
-  --color-bg: #fef9f4;
-  --color-text: #333;
-  --color-accent: #ff7043;
-  --color-button: #4db6ac;
-  --color-button-hover: #00897b;
-  --border-radius: 10px;
-  --shadow-card: 0 8px 14px rgba(0, 0, 0, 0.1);
-  --transition-fast: 0.2s ease;
+  /*  Primary Color Variants */
+  --red: #e63946;
+  --blue: #457b9d;
+  --green: #2a9d8f;
+  --yellow: #f4a261;
+  --purple: #8d5eab;
+  --orange: #e76f51;
+  --teal: #38b2ac;
+  --pink: #f472b6;
+
+  /*  Neutrals */
+  --off-white: #f9f9f9;
+  --light-black: #2f2f2f;
+
+  /*  Fonts (use w/ font-family) */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Fira Sans', sans-serif;
+
+  /*  Utility Variables */
+  --radius: 8px;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  --transition: 0.2s ease-in-out;
+  --container-max: 1200px;
 }
 
 * {
