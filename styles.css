@@ -1,4 +1,16 @@
 /* Reset-ish baseline */
+:root {
+  --font-main: 'Poppins', sans-serif;
+  --color-bg: #fef9f4;
+  --color-text: #333;
+  --color-accent: #ff7043;
+  --color-button: #4db6ac;
+  --color-button-hover: #00897b;
+  --border-radius: 10px;
+  --shadow-card: 0 8px 14px rgba(0, 0, 0, 0.1);
+  --transition-fast: 0.2s ease;
+}
+
 * {
     margin: 0;
     padding: 0;
