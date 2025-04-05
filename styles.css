@@ -115,7 +115,7 @@
     margin-top: auto;
     align-self: flex;  
     margin-top: 0.5rem;
-    background-color: #4db6ac;
+    background-color: var(--green);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
