@@ -77,7 +77,7 @@ header p {
   padding: 1rem;
   position: relative;
   background-color: #fff;
-  border: 2px solid var(--orange);
+  border: 1px solid var(--orange);
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
