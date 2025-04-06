@@ -110,7 +110,7 @@ header p {
 .product-card p {
   font-size: 0.9rem;
   margin: 0.25rem 0;
-  color: var(--green);
+  color: var(--light-black);
 }
 
 .add-to-cart {
