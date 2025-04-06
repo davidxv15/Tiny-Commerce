@@ -9,7 +9,7 @@ fetch('./data/products.json')
       card.innerHTML = `
       <div class="card-content">
         <img src="${product.image}" alt="${product.name}" />
-        <h3>${product.name}</h3>
+        <h3><a href="product.html?id=${product.id}">${product.name}</a></h3>
         <p>${product.description}</p>
         <p><strong>$${product.price.toFixed(2)}</strong></p>
         <button class="add-to-cart">Add to Cart</button>
