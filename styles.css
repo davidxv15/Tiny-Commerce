@@ -34,6 +34,25 @@
   box-sizing: border-box;
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: var(--off-white);
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.nav a:hover {
+  color: var(--teal);
+}
+
+
 html,
 body {
   font-family: "Poppins", sans-serif;
