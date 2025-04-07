@@ -39,7 +39,7 @@
   justify-content: flex-end;
   gap: 1.5rem;
   padding: 1rem;
-  background-color: var(--off-white);
+  background-color: var(--light-black);
   font-weight: bold;
 }
 
@@ -51,7 +51,6 @@
 .nav a:hover {
   color: var(--teal);
 }
-
 
 html,
 body {
