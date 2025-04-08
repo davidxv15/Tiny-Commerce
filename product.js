@@ -1,4 +1,3 @@
-// product.js
 fetch('./data/products.json')
   .then(res => res.json())
   .then(products => {
