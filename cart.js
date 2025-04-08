@@ -1,4 +1,4 @@
-fetch('.data/products.json')
+fetch('./data/products.json')
  .then(res => res.json())
  .then(products => {
     const params = new URLSearchParams(window.location.search);
@@ -9,6 +9,6 @@ fetch('.data/products.json')
         return;
     }
 
-    
+
 
  });
