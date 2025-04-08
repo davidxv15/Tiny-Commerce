@@ -1,13 +1,19 @@
 fetch('./data/products.json')
  .then(res => res.json())
- .then(products => {
-    const params = new URLSearchParams(window.location.search);
-    const id = parseInt(params.get("id"));
+ .then(cart => {
+    const cartData = localStorage.getItem('cart');
 
-    if (!product) {
-        document.body.innerHTML = "<p>No items in cart</p>";
-        return;
-    }
+// Check if anything is in the cart
+if (!cartData) {
+  console.log('🛒 Cart is empty');
+} else {
+  try {
+    const cart = JSON.parse(cartData);
+    console.log('🛒 Cart loaded:', cart);
+  } catch (error) {
+    console.error('❌ Failed to parse cart data:', error);
+  }
+}
 
 
 
