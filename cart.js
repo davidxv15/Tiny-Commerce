@@ -3,15 +3,14 @@ fetch('./data/products.json')
  .then(cart => {
     const cartData = localStorage.getItem('cart');
 
-// Check if anything is in the cart
 if (!cartData) {
-  console.log('🛒 Cart is empty');
+  console.log('Cart is empty');
 } else {
   try {
     const cart = JSON.parse(cartData);
-    console.log('🛒 Cart loaded:', cart);
+    console.log('Cart loaded:', cart);
   } catch (error) {
-    console.error('❌ Failed to parse cart data:', error);
+    console.error('Failed to parse cart data:', error);
   }
 }
 
