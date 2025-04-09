@@ -9,4 +9,21 @@ fetch('./data/products.json')
       return;
     }
 
+    let total = 0;
+    summary.innerHTML = cart.map(item => {
+      const product = products.find(p => p.id === item.id);
+      if (!product) return '';
+
+      const itemTotal = product.price * item.quantity;
+      total += itemTotal;
+
+      return `
+        <div class="checkout-item">
+          <strong>${product.name}</strong> x${item.quantity} — $${itemTotal.toFixed(2)}
+        </div>
+      `;
+    }).join('') + `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
+  })
+  .catch(err => {
+    console.error("Failed to load checkout data:", err);
   });
