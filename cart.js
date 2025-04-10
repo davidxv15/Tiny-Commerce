@@ -21,7 +21,7 @@ fetch('./data/products.json')
       const productEl = document.createElement('div');
       productEl.className = 'cart-item';
       productEl.innerHTML = `
-        <img src="${product.image}" alt="${product.name}" style="width: 150px; height: auto;" />
+        <img src="${product.image}" alt="${product.name}" style="width: 10rem; height: auto;" />
         <h3>${product.name}</h3>
         <p>Quantity: ${item.quantity}</p>
         <p>Price: $${product.price.toFixed(2)}</p>
