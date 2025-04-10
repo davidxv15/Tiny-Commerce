@@ -24,12 +24,15 @@ fetch('./data/products.json')
       `;
     }).join('') + `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
   })
+  .catch(err => {
+    console.error("Failed to load checkout data:", err);
+  });
 
-// Add this at the bottom of checkout.js
+// Checkout form logic — placed after fetch/catch
 const form = document.getElementById('checkout-form');
 
 form.addEventListener('submit', (e) => {
-  e.preventDefault(); // prevent page reload
+  e.preventDefault();
 
   const name = form.name.value.trim();
   const email = form.email.value.trim();
@@ -40,20 +43,12 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  // Simulate order submission
   console.log('Order submitted:', { name, email, address });
 
-  // Clear cart
   localStorage.removeItem('cart');
 
-  // Show confirmation or redirect
-  alert('✅ Order confirmed! Thank you for shopping with us.');
+  alert('Order confirmed! Thank you for shopping with us.');
 
-  // Optional: redirect to a confirmation page
+  // Optional redirect:
   // window.location.href = "confirmation.html";
 });
-
-
-  .catch(err => {
-    console.error("Failed to load checkout data:", err);
-  });
