@@ -29,11 +29,13 @@ fetch('./data/products.json')
         <hr>
       `;
       cartContainer.appendChild(productEl);
+
+      img.addEventListener('click', () => {
+        img.style.width = img.style.width === '6rem' ? '12rem' : '6rem';
+
     });
 
-    img.addEventListener('click', () => {
-      img.style.width = img.style.width === '6rem' ? '12rem' : '6rem';
-    });
+  
     
 
     // Add grand total at the end
