@@ -31,6 +31,11 @@ fetch('./data/products.json')
       cartContainer.appendChild(productEl);
     });
 
+    img.addEventListener('click', () => {
+      img.style.width = img.style.width === '6rem' ? '12rem' : '6rem';
+    });
+    
+
     // Add grand total at the end
     const totalEl = document.createElement('p');
     totalEl.innerHTML = `<strong>Total: $${total.toFixed(2)}</strong>`;
