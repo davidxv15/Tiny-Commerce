@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Checkout</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
 
-  <nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="cart.html">Cart</a>
-    <a href="checkout.html">Checkout</a>
-  </nav>
+    <main class="checkout-view">
+      <h1>Checkout</h1>
 
-  <main class="checkout-view">
-    <h1>Checkout</h1>
+      <div id="checkout-summary"></div>
 
-    <div id="checkout-summary"></div>
+      <form id="checkout-form">
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          autocomplete="name"
+        /><br /><br />
 
-    <form id="checkout-form">
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required autocomplete="name"/><br><br>
-  
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required autocomplete="email"/><br><br>
-  
-        <label for="address">Shipping Address:</label><br>
-        <textarea id="address" name="address" rows="4" required autocomplete="street-address" ></textarea><br><br>
-  
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          autocomplete="email"
+        /><br /><br />
+
+        <label for="address">Shipping Address:</label><br />
+        <textarea
+          id="address"
+          name="address"
+          rows="4"
+          required
+          autocomplete="street-address"
+        ></textarea
+        ><br /><br />
+
         <button type="submit">Confirm Order</button>
       </form>
     </main>
-  
+
     <script src="checkout.js"></script>
   </body>
-  </html>
-  
+</html>
