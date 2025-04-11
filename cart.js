@@ -1,37 +1,37 @@
-fetch('./data/products.json')
-  .then(res => res.json())
-  .then(products => {
-    const cart = JSON.parse(localStorage.getItem('cart')) || [];
-    const cartContainer = document.querySelector('.products-in-cart');
+fetch("./data/products.json")
+  .then((res) => res.json())
+  .then((products) => {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const cartContainer = document.querySelector(".products-in-cart");
 
     if (cart.length === 0) {
-      cartContainer.innerHTML = '<p>Your cart is empty.</p>';
+      cartContainer.innerHTML = "<p>Your cart is empty.</p>";
       return;
     }
 
     let total = 0;
 
-    cart.forEach(item => {
-      const product = products.find(p => p.id === item.id);
+    cart.forEach((item) => {
+      const product = products.find((p) => p.id === item.id);
       if (!product) return;
 
       const itemTotal = product.price * item.quantity;
       total += itemTotal;
 
-      const productEl = document.createElement('div');
-      productEl.className = 'cart-item';
+      const productEl = document.createElement("div");
+      productEl.className = "cart-item";
 
       //  Create the image
-      const img = document.createElement('img');
+      const img = document.createElement("img");
       img.src = product.image;
       img.alt = product.name;
-      img.style.width = '10rem';
-      img.style.height = 'auto';
-      img.style.cursor = 'pointer';
+      img.style.width = "10rem";
+      img.style.height = "auto";
+      img.style.cursor = "pointer";
 
       //  Single click toggle
-      img.addEventListener('click', () => {
-        img.style.width = img.style.width === '10rem' ? '16rem' : '10rem';
+      img.addEventListener("click", () => {
+        img.style.width = img.style.width === "10rem" ? "16rem" : "10rem";
       });
 
       //  Append image and HTML content
@@ -48,10 +48,10 @@ fetch('./data/products.json')
     });
 
     //  Add grand total after loop
-    const totalEl = document.createElement('p');
+    const totalEl = document.createElement("p");
     totalEl.innerHTML = `<strong>Total: $${total.toFixed(2)}</strong>`;
     cartContainer.appendChild(totalEl);
   })
-  .catch(err => {
-    console.error('Error loading cart:', err);
+  .catch((err) => {
+    console.error("Error loading cart:", err);
   });
