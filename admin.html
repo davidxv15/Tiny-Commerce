@@ -18,13 +18,26 @@
   <main class="admin-view">
     <h1>Admin Dashboard</h1>
     <p id="admin-msg"></p>
-
+  
     <section id="admin-content" style="display: none;">
-      <h2>Admin</h2>
-      <p>Mnage products, view orders, handle site settings.</p>
-      <!-- Future forms or data tables go here -->
+      <h2>New Product</h2>
+      <form id="product-form">
+        <label>Name: <input type="text" id="product-name" required /></label><br><br>
+        <label>Price: <input type="number" id="product-price" required /></label><br><br>
+        <label>Description:<br>
+          <textarea id="product-description" rows="3" required></textarea>
+        </label><br><br>
+        <label>Image URL: <input type="text" id="product-image" required /></label><br><br>
+  
+        <button type="submit">Add Product</button>
+      </form>
+  
+      <hr>
+      <h2>Stored Products</h2>
+      <div id="product-list"></div>
     </section>
   </main>
+  
 
   <script src="admin.js"></script>
 </body>
