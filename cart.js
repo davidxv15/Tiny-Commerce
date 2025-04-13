@@ -5,7 +5,7 @@ fetch("./data/products.json")
     const cartContainer = document.querySelector(".products-in-cart");
 
     if (cart.length === 0) {
-      cartContainer.innerHTML = "<p>Your cart is empty.</p>";
+      cartContainer.innerHTML = "<p>Your cart is currently empty.</p>";
       return;
     }
 
