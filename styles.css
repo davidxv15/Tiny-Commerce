@@ -158,3 +158,37 @@ header p {
     transform: translateY(-5px);
   }
 }
+
+/* Cart  */
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  background: #fdfdfd;
+}
+
+.qty-btn {
+  padding: 0.3rem 0.7rem;
+  margin: 0 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.qty {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.remove-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.remove-btn:hover {
+  background: #e74c3c;
+}
