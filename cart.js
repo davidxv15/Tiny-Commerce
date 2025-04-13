@@ -21,11 +21,19 @@ fetch("./data/products.json")
       const productEl = document.createElement('div');
       productEl.className = 'cart-item';
     
+      // Image
       const img = document.createElement('img');
       img.src = product.image;
       img.alt = product.name;
       img.style.width = '6rem';
-      img.style.height = 'auto';
+    
+      // Title
+      const title = document.createElement('h3');
+      title.textContent = product.name;
+    
+      // Price
+      const price = document.createElement('p');
+      price.textContent = `Price: $${product.price.toFixed(2)}`;
     
       // Quantity controls
       const quantityControls = document.createElement('div');
@@ -40,7 +48,7 @@ fetch("./data/products.json")
       removeBtn.textContent = 'Remove';
       removeBtn.className = 'remove-btn';
     
-      // Attach events
+      // Event Listeners
       quantityControls.querySelector('[data-action="increase"]').addEventListener('click', () => {
         item.quantity++;
         localStorage.setItem('cart', JSON.stringify(cart));
@@ -64,19 +72,24 @@ fetch("./data/products.json")
         location.reload();
       });
     
-      // Build card
+      // Subtotal
+      const subtotal = document.createElement('p');
+      subtotal.innerHTML = `<strong>Subtotal: $${itemTotal.toFixed(2)}</strong>`;
+    
+      const divider = document.createElement('hr');
+    
+      // ✅ Build card by appending all pieces
       productEl.appendChild(img);
-      productEl.innerHTML += `
-        <h3>${product.name}</h3>
-        <p>Price: $${product.price.toFixed(2)}</p>
-      `;
+      productEl.appendChild(title);
+      productEl.appendChild(price);
       productEl.appendChild(quantityControls);
-      productEl.innerHTML += `<p><strong>Subtotal: $${itemTotal.toFixed(2)}</strong></p>`;
+      productEl.appendChild(subtotal);
       productEl.appendChild(removeBtn);
-      productEl.innerHTML += `<hr>`;
+      productEl.appendChild(divider);
     
       cartContainer.appendChild(productEl);
     });
+    
     
   })
   .catch((err) => {
