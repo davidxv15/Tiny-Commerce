@@ -11,46 +11,73 @@ fetch("./data/products.json")
 
     let total = 0;
 
-    cart.forEach((item) => {
-      const product = products.find((p) => p.id === item.id);
+    cart.forEach(item => {
+      const product = products.find(p => p.id === item.id);
       if (!product) return;
-
+    
       const itemTotal = product.price * item.quantity;
       total += itemTotal;
-
-      const productEl = document.createElement("div");
-      productEl.className = "cart-item";
-
-      //  Create the image
-      const img = document.createElement("img");
+    
+      const productEl = document.createElement('div');
+      productEl.className = 'cart-item';
+    
+      const img = document.createElement('img');
       img.src = product.image;
       img.alt = product.name;
-      img.style.width = "10rem";
-      img.style.height = "auto";
-      img.style.cursor = "pointer";
-
-      //  Single click toggle
-      img.addEventListener("click", () => {
-        img.style.width = img.style.width === "10rem" ? "16rem" : "10rem";
+      img.style.width = '6rem';
+      img.style.height = 'auto';
+    
+      // Quantity controls
+      const quantityControls = document.createElement('div');
+      quantityControls.innerHTML = `
+        <button class="qty-btn" data-action="decrease">−</button>
+        <span class="qty">${item.quantity}</span>
+        <button class="qty-btn" data-action="increase">+</button>
+      `;
+    
+      // Remove button
+      const removeBtn = document.createElement('button');
+      removeBtn.textContent = 'Remove';
+      removeBtn.className = 'remove-btn';
+    
+      // Attach events
+      quantityControls.querySelector('[data-action="increase"]').addEventListener('click', () => {
+        item.quantity++;
+        localStorage.setItem('cart', JSON.stringify(cart));
+        location.reload();
       });
-
-      //  Append image and HTML content
+    
+      quantityControls.querySelector('[data-action="decrease"]').addEventListener('click', () => {
+        if (item.quantity > 1) {
+          item.quantity--;
+        } else {
+          cart.splice(cart.indexOf(item), 1);
+        }
+        localStorage.setItem('cart', JSON.stringify(cart));
+        location.reload();
+      });
+    
+      removeBtn.addEventListener('click', () => {
+        const index = cart.findIndex(i => i.id === item.id);
+        if (index > -1) cart.splice(index, 1);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        location.reload();
+      });
+    
+      // Build card
       productEl.appendChild(img);
       productEl.innerHTML += `
         <h3>${product.name}</h3>
-        <p>Quantity: ${item.quantity}</p>
         <p>Price: $${product.price.toFixed(2)}</p>
-        <p><strong>Subtotal: $${itemTotal.toFixed(2)}</strong></p>
-        <hr>
       `;
-
+      productEl.appendChild(quantityControls);
+      productEl.innerHTML += `<p><strong>Subtotal: $${itemTotal.toFixed(2)}</strong></p>`;
+      productEl.appendChild(removeBtn);
+      productEl.innerHTML += `<hr>`;
+    
       cartContainer.appendChild(productEl);
     });
-
-    //  Add grand total after loop
-    const totalEl = document.createElement("p");
-    totalEl.innerHTML = `<strong>Total: $${total.toFixed(2)}</strong>`;
-    cartContainer.appendChild(totalEl);
+    
   })
   .catch((err) => {
     console.error("Error loading cart:", err);
