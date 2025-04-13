@@ -173,7 +173,7 @@ header p {
   margin: 0 0.3rem;
   font-size: 1rem;
   cursor: pointer;
-  color: var(--green);
+  color: var(--red);
   background-color: rgb(183, 168, 168);
 }
 
