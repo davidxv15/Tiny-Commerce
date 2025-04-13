@@ -19,6 +19,27 @@
       "description": "Because your cat deserves class.",
       "price": 18.95,
       "image": "https://picsum.photos/300/200?random=3"
+    },
+    {
+      "id": 4,
+      "name": "Pant (for pets)",
+      "description": "Because your cat deserves class.",
+      "price": 12.95,
+      "image": "https://picsum.photos/300/200?random=4"
+    },
+    {
+      "id": 5,
+      "name": "Shoe",
+      "description": "Because your cat deserves class.",
+      "price": 28.95,
+      "image": "https://picsum.photos/300/200?random=5"
+    },
+    {
+      "id": 6,
+      "name": "Shawl",
+      "description": "Because your cat deserves it",
+      "price": 15.95,
+      "image": "https://picsum.photos/300/200?random=6"
     }
   ]
   
