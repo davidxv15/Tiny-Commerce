@@ -143,11 +143,10 @@ header p {
 .add-to-cart {
   margin-top: auto;
   align-self: flex;
-  margin-top: 0.5rem;
   background-color: var(--green);
   color: var(--white);
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border-radius: 999px;
   cursor: pointer;
   font-weight: bold;
