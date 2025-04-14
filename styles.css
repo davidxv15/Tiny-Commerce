@@ -90,7 +90,7 @@ header p {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  max-width: 1000px; /* tweak this to cap at 4 */
+  max-width: 1000px; 
   margin: 0 auto;
   padding: 1rem;
 }
@@ -101,6 +101,7 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: 15rem;
   padding: 0.8rem;
   position: relative;
   background-color: var(--white);
