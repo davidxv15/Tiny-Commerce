@@ -103,7 +103,7 @@ header p {
   height: 100%;
   padding: 1rem;
   position: relative;
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid var(--orange);
   padding: 1rem;
   border-radius: 10px;
