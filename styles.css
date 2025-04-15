@@ -146,6 +146,10 @@ header p {
   color: #ff7043;
 }
 
+.product-card a {
+  color: var(--green);
+}
+
 .product-card p {
   font-size: 1rem;
   margin: 0.25rem 0;
