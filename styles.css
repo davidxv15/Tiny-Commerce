@@ -156,6 +156,10 @@ header p {
   color: var(--light-black);
 }
 
+#product-price {
+  color: var(--red);
+}
+
 .add-to-cart {
   margin-top: auto;
   align-self: flex;
