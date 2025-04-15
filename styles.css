@@ -133,7 +133,7 @@ header p {
   max-width: 100%;
   border-radius: 8px;
   border: 1px solid var(--green);
-  transition: transform 0.2s ease;
+  transition: transform 0.20s ease;
 }
 
 .product-card:hover img {
