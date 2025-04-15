@@ -158,6 +158,7 @@ header p {
 
 #product-price {
   color: var(--red);
+  align-self: flex-end;
 }
 
 .add-to-cart {
