@@ -161,7 +161,7 @@ header p {
 }
 
 #product-description {
-  color: red;
+  color: var(--light-black);
 }
 
 #product-price {
