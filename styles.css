@@ -34,6 +34,10 @@
   box-sizing: border-box;
 }
 
+a:visited {
+  color: var(--red);
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -158,6 +162,7 @@ header p {
 
 #product-price {
   color: var(--green);
+  margin-top: 10px;
   align-self: flex-end;
 }
 
