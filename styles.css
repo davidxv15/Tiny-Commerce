@@ -162,8 +162,8 @@ header p {
 
 #product-price {
   color: var(--green);
-  margin-top: 10px;
-  align-self: flex-end;
+  margin-top: 1rem;
+  /* align-self: flex-end; */
 }
 
 .add-to-cart {
