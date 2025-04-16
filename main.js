@@ -10,7 +10,8 @@ fetch('./data/products.json')
           <img src="${product.image}" alt="${product.name}" />
           <h3><a href="product.html?id=${product.id}">${product.name}</a></h3>
           <p>${product.description}</p>
-          <p><strong>$${product.price.toFixed(2)}</strong></p>
+          <p id="product-price" class="price">$${product.price.toFixed(2)}</p>
+
           <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
         </div>
       `;
