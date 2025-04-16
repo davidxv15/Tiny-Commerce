@@ -163,7 +163,7 @@ header p {
 #product-price {
   color: var(--green);
   margin-top: 1rem;
-  /* align-self: flex-end; */
+  align-self: flex-end;
 }
 
 .add-to-cart {
