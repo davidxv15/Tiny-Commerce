@@ -157,7 +157,7 @@ header p {
 }
 
 #product-price {
-  color: var(--red);
+  color: var(--green);
   align-self: flex-end;
 }
 
