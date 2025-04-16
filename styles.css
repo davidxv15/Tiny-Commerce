@@ -162,6 +162,7 @@ header p {
 
 #product-price {
   color: var(--light-black);
+  font-weight: 600;
   margin-top: 1rem;
   align-self: flex-end;
 }
