@@ -160,10 +160,14 @@ header p {
   color: var(--light-black);
 }
 
+#product-description {
+  transform: ;
+}
+
 #product-price {
   color: var(--light-black);
   font-weight: 600;
-  margin-top: 1rem;
+  padding-top: .5rem;
   align-self: flex-end;
 }
 
