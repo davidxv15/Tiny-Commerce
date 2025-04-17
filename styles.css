@@ -50,11 +50,12 @@ a:visited {
 .nav a {
   text-decoration: none;
   color: var(--green);
+  transition: all 0.2s ease;
 }
 
 .nav a:hover {
   color: var(--orange);
-  transform: scale(1.05);
+  transform: scale(1.3);
 }
 
 html,
