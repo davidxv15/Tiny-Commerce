@@ -54,6 +54,7 @@ a:visited {
 
 .nav a:hover {
   color: var(--teal);
+  transform: scale(1.05);
 }
 
 html,
