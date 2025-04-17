@@ -179,7 +179,7 @@ header p {
   color: var(--white);
   border: none;
   padding: 0.5rem;
-  border-radius: 999px;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
 }
