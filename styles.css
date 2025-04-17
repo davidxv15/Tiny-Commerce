@@ -41,7 +41,7 @@ a:visited {
 .nav {
   display: flex;
   justify-content: space-around;
-  gap: 1.5rem;
+  gap: .5rem;
   padding: 1rem;
   background-color: var(--light-black);
   font-weight: bold;
