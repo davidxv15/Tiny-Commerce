@@ -172,9 +172,9 @@ header p {
 #product-price {
   color: var(--light-black);
   font-weight: 600;
-  /* padding-top: .5rem; */
-  margin-bottom: 3px;
-  align-self:center;
+  padding-top: .5rem;
+  /* margin-bottom: 3px; */
+  align-self:flex-end;
 }
 
 .add-to-cart {
