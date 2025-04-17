@@ -43,8 +43,9 @@ a:visited {
   justify-content: space-around;
   gap: .5rem;
   padding: .6rem;
-  background-color: var(--light-black);
   font-weight: bold;
+  background-color: var(--light-black);
+  border-radius: 5px;
 }
 
 .nav a {
