@@ -167,8 +167,9 @@ header p {
 #product-price {
   color: var(--light-black);
   font-weight: 600;
-  padding-top: .5rem;
-  align-self: flex-end;
+  /* padding-top: .5rem; */
+  margin-bottom: 3px;
+  align-self:center;
 }
 
 .add-to-cart {
