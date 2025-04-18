@@ -157,6 +157,7 @@ header p {
 
 .product-card a {
   color: var(--green);
+  letter-spacing: .3px;
 }
 
 .product-card p {
