@@ -71,7 +71,7 @@ body {
 
 /* Header styles */
 header {
-  text-align: center;
+  text-align:left;
   margin-bottom: 2rem;
   /* animation: float 4s ease-in-out infinite; */
 }
