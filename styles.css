@@ -72,6 +72,7 @@ body {
 /* Header styles */
 header {
   text-align: center;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   /* animation: float 4s ease-in-out infinite; */
 }
