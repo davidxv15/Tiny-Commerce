@@ -87,7 +87,7 @@ header p {
   font-size: 1.1rem;
   color: #666;
   filter:blur(3px);
-  transform: translateY(-1rem);
+  transform: translateY(-.7rem);
   letter-spacing: 3px;
 }
 
