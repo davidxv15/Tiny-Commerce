@@ -85,7 +85,7 @@ header h1 {
 header p {
   font-size: 1.1rem;
   color: #666;
-  filter:blur(2px);
+  filter:blur(3px);
   transform: translateY(-.5rem);
   letter-spacing: 2px;
 }
