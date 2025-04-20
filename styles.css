@@ -81,6 +81,7 @@ header h1 {
   font-size: 1.5rem;
   color: var(--green);
   text-shadow: 2px 2px 0 #19180d;
+  padding-top: 1rem;
 }
 
 header p {
