@@ -87,6 +87,7 @@ header p {
   color: #666;
   filter:blur(2px);
   transform: translateY(-.5rem);
+  letter-spacing: 2px;
 }
 
 /* Grid layout */
