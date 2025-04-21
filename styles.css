@@ -203,8 +203,7 @@ header p {
 }
 
 .add-to-cart:hover {
-  background-color: #00897b;
-  transform: scale(1.05);
+  border: 1px solid var(--green);
 }
 
 /* Animations */
