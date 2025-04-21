@@ -119,7 +119,7 @@ header p {
   justify-content: space-between;
   height: 100%;
   width: 15rem;
-  padding: 0.8rem;
+  padding: 1rem;
   position: relative;
   background-color: var(--white);
   border: 1px solid var(--green);
