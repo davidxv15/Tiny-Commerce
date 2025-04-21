@@ -157,7 +157,7 @@ header p {
 .product-card h3 {
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  color: #ff7043;
+  color: var(--danger);
 }
 
 .product-card a {
