@@ -43,12 +43,12 @@ a:visited {
 
 .nav {
   display: flex;
-  justify-content: space-around;
-  gap: 0.5rem;
-  padding: 0.6rem;
+  justify-content: space-between;
+  gap: 1.2rem;
+  background: transparent;
   font-weight: bold;
-  background-color: var(--light-black);
   border-radius: 5px;
+  padding: 0.6rem;
 }
 
 .nav a {
