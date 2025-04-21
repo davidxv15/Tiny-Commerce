@@ -124,7 +124,6 @@ header p {
   background-color: var(--white);
   border: 1px solid var(--green);
   border-radius: var(--radius);
-  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
   transition: background-color var(--transition), transform var(--transition);
   cursor: pointer;
 }
