@@ -151,24 +151,23 @@ header p {
 
 .product-card:hover img {
   transform: scale(1.05);
-  border: none;
 }
 
 .product-card h3 {
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  color: var(--danger);
+  color: var(--yellow);
 }
 
 .product-card a {
-  color: var(--blue);
+  color: var(--light-black);
   letter-spacing: 0.3px;
 }
 
 .product-card p {
   font-size: 1rem;
   margin: 0.25rem 0;
-  color: var(--light-black);
+  color: var(--red);
 }
 
 #product-description {
@@ -187,7 +186,7 @@ header p {
 .add-to-cart {
   margin-top: auto;
   align-self: flex;
-  background-color: var(--green);
+  background-color: var(--light-black);
   color: var(--white);
   border: none;
   padding: 0.5rem;
