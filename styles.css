@@ -156,12 +156,18 @@ header p {
 .product-card h3 {
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  color: var(--yellow);
+  color: var(--light-black);
+}
+.product-card h3:hover {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: var(--green);
 }
 
 .product-card a {
   color: var(--light-black);
   letter-spacing: 0.3px;
+  text-decoration: none;
 }
 
 .product-card p {
