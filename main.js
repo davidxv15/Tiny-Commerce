@@ -13,7 +13,7 @@ fetch('./data/products.json')
 
           <p id="product-price" class="price">$${product.price.toFixed(2)}</p>
 
-          <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
+          <button class="add-to-cart" data-id="${product.id}">+</button>
         </div>
       `;
       list.appendChild(card);
