@@ -125,7 +125,6 @@ header p {
   border: 1px solid var(--green);
   border-radius: var(--radius);
   transition: background-color var(--transition), transform var(--transition);
-  cursor: pointer;
 }
 
 .product-card:hover {
