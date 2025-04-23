@@ -247,6 +247,7 @@ header p {
 }
 
 .remove-btn {
+  font-family: "Outfit";
   margin-top: 0.5rem;
   padding: 0.4rem 0.8rem;
   background: var(--danger);
