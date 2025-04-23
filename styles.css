@@ -15,7 +15,7 @@
   --orange: #ff7043;
   --yellow: #f4a261;
   --green: #2a9d8f;
-  --teal: #38b2ac;
+  --mint: #98ffec;
   --blue: #457b9d;
   --purple: #8d5eab;
   --pink: #f472b6;
@@ -53,6 +53,23 @@ a:visited {
   padding: 0.6rem 1.8rem 0.6rem 1.8rem;
   box-shadow: var(--glow);
 }
+
+/* .nav {
+  position: fixed;
+  top: 0;
+  left: -160px; 
+  height: 100vh;
+  width: 160px;
+  flex-direction: column;
+  background: #0d1117;
+  padding: 2rem 1rem;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.nav:hover {
+  left: 0;
+} */
 
 .nav a {
   text-decoration: none;
