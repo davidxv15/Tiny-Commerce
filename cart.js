@@ -85,7 +85,7 @@ fetch("./data/products.json")
       productEl.appendChild(quantityControls);
       productEl.appendChild(subtotal);
       productEl.appendChild(removeBtn);
-      productEl.appendChild(divider);
+      // productEl.appendChild(divider);
     
       cartContainer.appendChild(productEl);
     });
