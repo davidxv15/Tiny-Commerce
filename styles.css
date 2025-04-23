@@ -224,7 +224,7 @@ header p {
 /* Cart  */
 .cart-item {
   border: 1px solid var(--red);
-  padding: 1rem;
+  padding: 1.2rem;
   margin-bottom: 1rem;
   border-radius: 6px;
   background: var(--light-black);
