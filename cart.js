@@ -25,7 +25,7 @@ fetch("./data/products.json")
       const img = document.createElement('img');
       img.src = product.image;
       img.alt = product.name;
-      img.style.width = '6rem';
+      img.style.width = '15rem';
     
       // Title
       const title = document.createElement('h3');
