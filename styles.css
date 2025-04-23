@@ -249,7 +249,7 @@ header p {
 .remove-btn {
   margin-top: 0.5rem;
   padding: 0.4rem 0.8rem;
-  background: var(--red);
+  background: var(--danger);
   color: white;
   border: none;
   border-radius: 4px;
