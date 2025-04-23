@@ -235,7 +235,7 @@ header p {
   margin: 0 0.3rem;
   font-size: 1rem;
   cursor: pointer;
-  color: var(--red);
+  color: var(--primary);
   background-color: var(--light);
   border-radius: var(--radius);
 }
