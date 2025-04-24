@@ -26,7 +26,7 @@
   --font-secondary: "Fira Sans", sans-serif;
 
   /*  Utility Variables */
-  --radius: 8px;
+  --radius: 5px;
   /* --shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   --transition: 0.2s ease-in-out;
   --container-max: 1200px;
@@ -65,6 +65,7 @@ a:visited {
   flex-direction: column;
   background: var(--primary);
   border: .1px solid var(--mintLeaf);
+  border-radius: var(--radius);
   padding: 2rem 1rem;
   margin-top: 2rem;
   transition: left 0.3s ease;
