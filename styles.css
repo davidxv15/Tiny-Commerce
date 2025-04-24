@@ -59,13 +59,14 @@ a:visited {
   position: fixed;
   top: 0;
   /* left: -1px;  */
-  height: 100vh;
+  height: 90vh;
   width: 160px;
   display: flex;
   flex-direction: column;
   background: var(--primary);
   border: .1px solid var(--mintLeaf);
   padding: 2rem 1rem;
+  margin-top: 2rem;
   transition: left 0.3s ease;
   z-index: 999;
 }
