@@ -148,7 +148,7 @@ header p {
   width: 15rem;
   padding: 1rem;
   position: relative;
-  color: var(--mint);
+  color: var(--soft-gray);
   background-color: var(--white);
   border: 1px solid var(--green);
   border-radius: var(--radius);
