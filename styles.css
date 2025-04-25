@@ -145,7 +145,7 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  width: 15rem;
+  max-width: 100%;
   padding: 1rem;
   position: relative;
   color: var(--soft-gray);
