@@ -142,6 +142,7 @@ header p {
 /* Product cards */
 .product-card {
   display: flex;
+  flex: 1 1 240px; /* grow, shrink, min-width */
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
