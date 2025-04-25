@@ -58,7 +58,7 @@ a:visited {
 .nav {
   position: fixed;
   top: 0;
-  left: -8%; 
+  left: -14%; 
   height: 90vh;
   width: 15%;
   display: flex;
@@ -74,7 +74,7 @@ a:visited {
 
 .nav:hover {
   left: 0;
-  margin-left: 20px;
+  margin-left: 2px;
 }
 
 .nav a {
@@ -82,7 +82,7 @@ a:visited {
   font-size: 2rem;
   justify-content: space-between;
   padding-top: 4rem;
-  left: 12px;
+  left: 2px;
   color: var(--soft-gray);
   transition: color var(--transition);
   transition: all 0.2s ease;
