@@ -246,6 +246,16 @@ header p {
   color: var(--mint);
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-weight: bold;
+  color: var(--mintLeaf);
+}
+
 /* Animations */
 @keyframes float {
   0%,
