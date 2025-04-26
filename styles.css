@@ -63,13 +63,13 @@ a:visited {
   width: 15%;
   display: flex;
   flex-direction: column;
-  background: var(--primary);
+  /* background: rgba(13, 17, 23, 0.7);  */
+  backdrop-filter: blur(10px); 
   border: .1px solid var(--mintLeaf);
   border-radius: var(--radius);
   padding: 2rem 1rem;
   margin-top: 2rem;
   transition: left 0.3s ease;
-  opacity: 50%;
   z-index: 999;
 }
 
