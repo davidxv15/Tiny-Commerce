@@ -64,6 +64,7 @@ a:visited {
   width: 15%;
   min-width: max-content;
   overflow-y: auto;
+  scrollbar-width: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
