@@ -63,6 +63,7 @@ a:visited {
   height: 90vh;
   width: 15%;
   min-width: max-content;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
