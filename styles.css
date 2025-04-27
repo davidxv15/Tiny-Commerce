@@ -103,6 +103,10 @@ a:visited {
   /* left: 5%; */
 }
 
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
 html,
 body {
   font-family: var(--font-primary);
