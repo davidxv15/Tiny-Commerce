@@ -261,7 +261,7 @@ header p {
 }
 
 .pagination button {
-  background-color: red;
+  background-color: var(--mintLeaf);
 }
 
 /* Animations */
