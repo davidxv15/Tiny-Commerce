@@ -251,16 +251,17 @@ header p {
 }
 
 .pagination {
+  color: var(--light);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 1rem 0;
   font-weight: bold;
-  color: var(--light);
 }
 
 .pagination button {
+  color: var(--light);
   background-color: var(--mintLeaf);
   border-radius: var(--radius);
 }
