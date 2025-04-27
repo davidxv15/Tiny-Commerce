@@ -60,7 +60,8 @@ a:visited {
   top: 0;
   /* UNCOMMENT TO ACHEIVE FX   v v v  v v  vv v v  v v    v   v v v v v v  v vv v v vv  v v  v v v v v v v v  */
   /* left: -14%;  */
-  height: 90vh;
+  /* height: 90vh; */
+  min-height: 100vh;
   width: 15%;
   min-width: max-content;
   display: flex;
