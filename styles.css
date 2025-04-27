@@ -63,6 +63,8 @@ a:visited {
   width: 15%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start; /* Start links from top */
+  align-items: center; /* Center links horizontally */
   background: rgba(13, 17, 23, 0.7); 
   backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
