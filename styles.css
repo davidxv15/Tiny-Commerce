@@ -257,7 +257,7 @@ header p {
   gap: 1rem;
   padding: 1rem 0;
   font-weight: bold;
-  color: var(--mintLeaf);
+  color: var(--light);
 }
 
 .pagination button {
