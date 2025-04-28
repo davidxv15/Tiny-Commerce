@@ -62,7 +62,7 @@ a:visited {
   /* left: -14%;  */
   height: 90vh;
   width: max-content;
-  min-width: max-content;
+  min-width: 8rem;
   overflow-y: auto;
   scrollbar-width: none;
   display: flex;
