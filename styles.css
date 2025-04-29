@@ -273,7 +273,7 @@ header p {
 }
 
 .pagination button {
-  height: 2rem;
+  height: 3rem;
   width: 4rem;
   font-family: var(--font-primary);
   color: var(--light);
