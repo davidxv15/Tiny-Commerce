@@ -273,6 +273,7 @@ header p {
 }
 
 .pagination button {
+  height: 2rem;
   color: var(--light);
   background-color: var(--mintLeaf);
   border-radius: var(--radius);
