@@ -277,7 +277,7 @@ header p {
   width: 4rem;
   font-family: var(--font-primary);
   color: var(--light);
-  background-color: var(--mintLeaf);
+  background-color: var(--primary);
   border: 1px solid var(--mint);
   border-radius: var(--radius);
 }
