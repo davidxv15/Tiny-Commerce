@@ -43,18 +43,6 @@ a:visited {
   color: var(--red);
 }
 
-/* .nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.1rem;
-  background: transparent;
-  font-weight: bold;
-  border: 1px solid var(--green);
-  border-radius: 5px;
-  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
-  box-shadow: var(--glow);
-} */
-
 .nav {
   position: fixed;
   top: 0;
