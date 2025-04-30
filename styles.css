@@ -95,6 +95,10 @@ a:visited {
   display: none;
 }
 
+.active {
+  color: var(--mint);
+}
+
 html,
 body {
   font-family: var(--font-primary);
