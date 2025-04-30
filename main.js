@@ -37,3 +37,11 @@ fetch('./data/products.json')
     });
   })
   .catch(err => console.error('Failed to load products:', err));
+
+  // highlight current page link
+document.querySelectorAll('.nav a').forEach(link => {
+  if (link.href.includes(location.pathname)) {
+    link.classList.add('active');
+  }
+});
+
