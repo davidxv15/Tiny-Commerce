@@ -82,6 +82,13 @@
       "description": "Because your cat deserves it",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=12"
+    },
+    {
+      "id": 13,
+      "name": "Shawl",
+      "description": "Because your cat deserves it",
+      "price": 15.95,
+      "image": "https://picsum.photos/300/200?random=13"
     }
   ]
   
