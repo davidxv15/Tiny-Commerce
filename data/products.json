@@ -89,6 +89,13 @@
       "description": "Because your cat deserves it",
       "price": 13.95,
       "image": "https://picsum.photos/300/200?random=13"
+    },
+    {
+      "id": 14,
+      "name": "Lucky chew toy",
+      "description": "Because your cat deserves it",
+      "price": 14.95,
+      "image": "https://picsum.photos/300/200?random=14"
     }
   ]
   
