@@ -1,6 +1,17 @@
 let currentPage = 1;
 const productsPerPage = 12;
 
+function displayPage(products) {
+  const start = (currentPage - 1) * productsPerPage;
+  const end = start + productsPerPage;
+  const paginatedProducts = products.slice(start, end);
+
+  const list = document.getElementById('product-list');
+  list.innerHTML = ""; // clear existing
+  paginatedProducts.forEach(product => {
+    // render cards here
+  });
+}
 
 fetch('./data/products.json')
   .then(res => res.json())
