@@ -1,3 +1,7 @@
+let currentPage = 1;
+const productsPerPage = 8;
+
+
 fetch('./data/products.json')
   .then(res => res.json())
   .then(products => {
