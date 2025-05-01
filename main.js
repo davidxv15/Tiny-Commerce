@@ -1,5 +1,5 @@
 let currentPage = 1;
-const productsPerPage = 8;
+const productsPerPage = 12;
 
 
 fetch('./data/products.json')
