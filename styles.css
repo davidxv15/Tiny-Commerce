@@ -276,6 +276,10 @@ header p {
   border-radius: var(--radius);
 }
 
+.pagination button:hover {
+  cursor: pointer;
+}
+
 /* Animations */
 @keyframes float {
   0%,
