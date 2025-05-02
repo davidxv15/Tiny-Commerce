@@ -61,7 +61,7 @@ function setupPagination(products) {
   pagination.appendChild(prevBtn);
 
   const nextBtn = document.createElement('button');
-  nextBtn.textContent = 'Next →';
+  nextBtn.textContent = 'Next';
   nextBtn.disabled = currentPage === totalPages;
   nextBtn.addEventListener('click', () => {
     if (currentPage < totalPages) {
