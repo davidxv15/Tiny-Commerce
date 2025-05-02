@@ -103,6 +103,13 @@
       "description": "Teach your dog to write.",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=15"
+    },
+    {
+      "id": 16,
+      "name": "Pet Candles",
+      "description": "Bday candles",
+      "price": 16.95,
+      "image": "https://picsum.photos/300/200?random=16"
     }
   ]
   
