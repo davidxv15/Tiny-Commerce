@@ -56,6 +56,7 @@ function setupPagination(products) {
       currentPage--;
       displayPage(products);
       setupPagination(products);
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
   pagination.appendChild(prevBtn);
