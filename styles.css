@@ -274,6 +274,7 @@ header p {
   background-color: var(--primary);
   border: 1px solid var(--mint);
   border-radius: var(--radius);
+  transition: transform 0.2s ease;
 }
 
 .pagination button:hover {
