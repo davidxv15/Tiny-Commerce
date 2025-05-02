@@ -96,6 +96,13 @@
       "description": "Because your cat deserves it",
       "price": 14.95,
       "image": "https://picsum.photos/300/200?random=14"
+    },
+    {
+      "id": 15,
+      "name": "Dog pen",
+      "description": "Teach your dog to write.",
+      "price": 15.95,
+      "image": "https://picsum.photos/300/200?random=15"
     }
   ]
   
