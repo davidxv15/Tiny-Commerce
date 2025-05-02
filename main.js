@@ -49,7 +49,7 @@ function setupPagination(products) {
   const totalPages = Math.ceil(products.length / productsPerPage);
 
   const prevBtn = document.createElement('button');
-  prevBtn.textContent = '← Previous';
+  prevBtn.textContent = 'Previous';
   prevBtn.disabled = currentPage === 1;
   prevBtn.addEventListener('click', () => {
     if (currentPage > 1) {
