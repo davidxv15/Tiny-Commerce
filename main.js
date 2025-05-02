@@ -61,6 +61,11 @@ function setupPagination(products) {
   });
   pagination.appendChild(prevBtn);
 
+  const pageInfo = document.createElement('span');
+  pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+  pageInfo.className = 'page-info'; 
+  pagination.appendChild(pageInfo);
+
   const nextBtn = document.createElement('button');
   nextBtn.textContent = 'Next';
   nextBtn.disabled = currentPage === totalPages;
