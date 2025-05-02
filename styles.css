@@ -252,6 +252,7 @@ header p {
 .add-to-cart:hover {
   border: 1px solid var(--mint);
   color: var(--mint);
+  filter: brightness(1.1);
 }
 
 .pagination {
