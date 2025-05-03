@@ -137,7 +137,7 @@ header p {
   letter-spacing: 3px;
 }
 
-/* Grid layout */
+/* GRID layout */
 #product-list {
   display: flex;
   flex-wrap: wrap;
