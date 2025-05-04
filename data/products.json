@@ -124,6 +124,13 @@
       "description": "Treat yo self",
       "price": 18.95,
       "image": "https://picsum.photos/300/200?random=18"
+    },
+    {
+      "id": 19,
+      "name": "Again treats",
+      "description": "Treat yo self",
+      "price": 19.95,
+      "image": "https://picsum.photos/300/200?random=19"
     }
   ]
   
