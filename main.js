@@ -94,9 +94,12 @@ fetch('./data/products.json')
     const list = document.getElementById('product-list');
     list.innerHTML = "";
     // to render paginated products, add whats been cleared
-    displayPage(products);
-    setupPagination(products);
+    setTimeout(() => {
+      displayPage(products);
+      setupPagination(products);
+    }, 1000); // delay 1 second
   })
+
   .catch(err => console.error('Failed to load products:', err));
 
 // highlight current page link
