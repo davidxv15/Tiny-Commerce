@@ -93,6 +93,7 @@ fetch('./data/products.json')
     const list = document.getElementById('product-list');
     list.innerHTML = "";
     displayPage(products);
+    setupPagination(products);
   })
   .catch(err => console.error('Failed to load products:', err));
 
