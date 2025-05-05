@@ -90,6 +90,8 @@ fetch('./data/products.json')
   .then(products => {
     displayPage(products);  // initial render
     setupPagination(products);  // setup controls
+    const list = document.getElementById('product-list');
+    list.innerHTML = "";
   })
   .catch(err => console.error('Failed to load products:', err));
 
