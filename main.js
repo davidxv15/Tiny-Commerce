@@ -90,8 +90,10 @@ fetch('./data/products.json')
   .then(products => {
     displayPage(products);  // initial render
     setupPagination(products);  // setup controls
+    // // Remove skeletons
     const list = document.getElementById('product-list');
     list.innerHTML = "";
+    // to render paginated products, add whats been cleared
     displayPage(products);
     setupPagination(products);
   })
