@@ -97,7 +97,7 @@ fetch('./data/products.json')
     setTimeout(() => {
       displayPage(products);
       setupPagination(products);
-    }, 1000); // delay 1 second
+    }, 500); // delay .5 second
   })
 
   .catch(err => console.error('Failed to load products:', err));
