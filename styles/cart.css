@@ -15,6 +15,7 @@
   }
   
   .cart-item {
+    color: pink;
     border: 1px solid var(--soft-gray);
     background: var(--light-black);
     border-radius: 6px;
