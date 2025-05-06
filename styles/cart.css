@@ -6,6 +6,7 @@
   }
   
   .products-in-cart {
+    color: red;
     display: flex;
     flex-direction: column;
     gap: 2rem;
