@@ -52,6 +52,8 @@
   
   .remove-btn {
     font-family: var(--font-primary);
+    width: fit-content;
+    position: flex-start;
     margin-top: 0.5rem;
     padding: 0.4rem 0.8rem;
     background: var(--danger);
