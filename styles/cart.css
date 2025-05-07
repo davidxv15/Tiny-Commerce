@@ -38,6 +38,10 @@
     background-color: var(--light);
     border-radius: var(--radius);
   }
+
+  .qty-btn:hover {
+    background-color: var(--mint);
+  }
   
   .qty {
     color: var(--font-primary);
