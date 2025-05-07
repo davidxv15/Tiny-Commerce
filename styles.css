@@ -338,7 +338,7 @@ header p {
   margin: 0 0.5rem;
 }
 
-.remove-btn {
+/* .remove-btn {
   font-family: "Outfit", sans-serif;
   margin-top: 0.5rem;
   padding: 0.4rem 0.8rem;
@@ -347,7 +347,7 @@ header p {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
+} */
 .remove-btn:hover {
   background: #e74c3c;
 }
