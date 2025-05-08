@@ -66,4 +66,8 @@
   .remove-btn:hover {
     background: var(--warning);
   }
-  
+
+  .cart-total {
+    text-align: right;
+    color: red;
+  }
