@@ -78,14 +78,33 @@ fetch("./data/products.json")
     
       const divider = document.createElement('hr');
     
-      // ✅ Build card by appending all pieces
-      productEl.appendChild(img);
-      productEl.appendChild(title);
-      productEl.appendChild(price);
-      productEl.appendChild(quantityControls);
-      productEl.appendChild(subtotal);
-      productEl.appendChild(removeBtn);
-      // productEl.appendChild(divider);
+      // Image column
+const imgCol = document.createElement('div');
+imgCol.className = 'cart-img';
+imgCol.appendChild(img);
+
+// Info column
+const infoCol = document.createElement('div');
+infoCol.className = 'cart-info';
+infoCol.innerHTML = `
+  <h3>${product.name}</h3>
+  <p>${product.description}</p>
+  <p>Price: $${product.price.toFixed(2)}</p>
+`;
+
+// Controls column
+const controlCol = document.createElement('div');
+controlCol.className = 'cart-controls';
+controlCol.appendChild(quantityControls);
+controlCol.appendChild(subtotal);
+controlCol.appendChild(removeBtn);
+
+// Assemble horizontal layout
+productEl.appendChild(imgCol);
+productEl.appendChild(infoCol);
+productEl.appendChild(controlCol);
+cartContainer.appendChild(productEl);
+
     
       cartContainer.appendChild(productEl);
     });
