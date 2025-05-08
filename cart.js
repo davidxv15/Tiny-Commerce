@@ -107,8 +107,13 @@ cartContainer.appendChild(productEl);
 
     
       cartContainer.appendChild(productEl);
+
+      
     });
-    
+    const totalEl = document.createElement('div');
+totalEl.className = 'cart-total';
+totalEl.innerHTML = `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
+cartContainer.appendChild(totalEl);
     
   })
   .catch((err) => {
