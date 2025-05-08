@@ -16,7 +16,8 @@
     border: 1px solid var(--soft-gray);
     background: var(--light-black);
     border-radius: 6px;
-    padding: 1.2rem;
+    height: auto;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
