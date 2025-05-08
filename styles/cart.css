@@ -69,5 +69,6 @@
 
   .cart-total {
     text-align: right;
+    font-size: 1.8rem;
     color: var(--soft-gray);
   }
