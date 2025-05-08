@@ -1,6 +1,6 @@
 .cart-view h1 {
     font-size: 2rem;
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 1rem;
     text-align: center;
     color: var(--green);
   }
@@ -64,6 +64,6 @@
   }
   
   .remove-btn:hover {
-    background: #e74c3c;
+    background: var(--warning);
   }
   
