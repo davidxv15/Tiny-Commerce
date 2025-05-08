@@ -105,9 +105,6 @@ productEl.appendChild(infoCol);
 productEl.appendChild(controlCol);
 cartContainer.appendChild(productEl);
 
-    
-      cartContainer.appendChild(productEl);
-
       
     });
     const totalEl = document.createElement('div');
