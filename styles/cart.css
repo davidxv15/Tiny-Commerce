@@ -13,15 +13,13 @@
   }
   
   .cart-item {
-    display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 1rem;
-  padding: 0.8rem;
-  background: var(--light-black);
-  border: 1px solid var(--soft-gray);
-  border-radius: var(--radius);
-  align-items: center;
-    gap: .2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--soft-gray);
   }
   
   .cart-item img {
