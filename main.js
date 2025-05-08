@@ -1,5 +1,5 @@
 let currentPage = 1;
-const productsPerPage = 6;
+const productsPerPage = 9;
 
 function displayPage(products) {
   const start = (currentPage - 1) * productsPerPage;
