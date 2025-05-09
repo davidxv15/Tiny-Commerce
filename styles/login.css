@@ -36,4 +36,8 @@
     cursor: pointer;
     transition: background-color 0.2s ease;
   }
+
+  #login-form button:hover {
+    background-color: var(--mintLeaf);
+  }
   
