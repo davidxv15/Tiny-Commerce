@@ -3,7 +3,7 @@
     margin: 6rem auto;
     padding: 2rem;
     background-color: var(--light-black);
-    border-radius: var(--radius);
+    border-radius: 30px;
     box-shadow: var(--glow);
   }
 
