@@ -14,7 +14,9 @@ function displayPage(products) {
     card.className = 'product-card';
     card.innerHTML = `
       <div class="card-content">
+      <a href="product.html?id=${product.id}">
         <img src="${product.image}" alt="${product.name}" />
+        </a>
         <h3><a href="product.html?id=${product.id}">${product.name}</a></h3>
         <p id="product-description">${product.description}</p>
         <p id="product-price" class="price">$${product.price.toFixed(2)}</p>
