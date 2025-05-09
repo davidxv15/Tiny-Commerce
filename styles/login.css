@@ -25,3 +25,15 @@
     border: 1px solid var(--soft-gray);
     background-color: var(--light);
   }
+
+  #login-form button {
+    padding: 0.6rem;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
