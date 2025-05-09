@@ -1,0 +1,8 @@
+.login-view {
+    max-width: 400px;
+    margin: 6rem auto;
+    padding: 2rem;
+    background-color: var(--light-black);
+    border-radius: var(--radius);
+    box-shadow: var(--glow);
+  }
