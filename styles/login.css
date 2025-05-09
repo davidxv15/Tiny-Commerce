@@ -18,3 +18,10 @@
     flex-direction: column;
     gap: 1rem;
   }
+
+  #login-form input {
+    padding: 0.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--soft-gray);
+    background-color: var(--light);
+  }
