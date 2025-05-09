@@ -40,4 +40,11 @@
   #login-form button:hover {
     background-color: var(--mintLeaf);
   }
+
+  #login-msg {
+    margin-top: 1rem;
+    text-align: center;
+    font-style: italic;
+    color: var(--red);
+  }
   
