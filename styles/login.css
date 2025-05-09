@@ -10,7 +10,7 @@
   .login-view h1 {
     text-align: center;
     color: var(--green);
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
   
   #login-form {
