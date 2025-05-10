@@ -1,7 +1,7 @@
 let currentPage = 1;
 const productsPerPage = 9;
 
-// 🔁 Render the correct set of products per page
+//  Render the correct set of products per page
 function displayPage(products) {
   const start = (currentPage - 1) * productsPerPage;
   const end = start + productsPerPage;
@@ -27,11 +27,11 @@ function displayPage(products) {
     list.appendChild(card);
   });
 
-  // ✅ Rebind button listeners AFTER injecting HTML
+  // Rebind button listeners AFTER injecting HTML
   bindCartButtons();
 }
 
-// 🎯 Attach add-to-cart behavior to each button
+//  Attach add-to-cart behavior to each button
 function bindCartButtons() {
   document.querySelectorAll(".add-to-cart").forEach((button) => {
     button.addEventListener("click", (e) => {
@@ -51,14 +51,14 @@ function bindCartButtons() {
   });
 }
 
-// 📜 Handles page navigation and button enable/disable
+// Handles page navigation and button enable/disable
 function setupPagination(products) {
   const pagination = document.getElementById("pagination");
   pagination.innerHTML = "";
 
   const totalPages = Math.ceil(products.length / productsPerPage);
 
-  // ◀️ Previous Button
+  // ◀️Previous Button
   const prevBtn = document.createElement("button");
   prevBtn.textContent = "Previous";
   prevBtn.disabled = currentPage === 1;
@@ -72,7 +72,7 @@ function setupPagination(products) {
   });
   pagination.appendChild(prevBtn);
 
-  // 📄 Page Number Info
+  //  Page Number Info
   const pageInfo = document.createElement("span");
   pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
   pageInfo.className = "page-info";
@@ -93,7 +93,7 @@ function setupPagination(products) {
   pagination.appendChild(nextBtn);
 }
 
-// 🧠 Fetch product data and initialize view
+//  Fetch product data and initialize view
 fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
@@ -102,7 +102,7 @@ fetch("./data/products.json")
   })
   .catch((err) => console.error("Failed to load products:", err));
 
-// 🌐 Highlight active page in navbar
+//  Highlight active page in navbar
 document.querySelectorAll(".nav a").forEach((link) => {
   if (link.href.includes(location.pathname)) {
     link.classList.add("active");
