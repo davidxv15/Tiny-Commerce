@@ -26,7 +26,7 @@ function displayPage(products) {
     list.appendChild(card);
   });
 
-  // Add to cart functionality
+  //  cart functionality
   document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', e => {
       const id = parseInt(e.target.dataset.id);
