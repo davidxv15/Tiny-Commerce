@@ -1,9 +1,12 @@
 /* === GENERAL === */
 .checkout-view {
-    padding-top: 2rem;
-    max-width: 900px;              /* ↓ tighter container */
-    margin: 0 auto;
-  }
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
   
   /* === CONTAINER LAYOUT === */
   .checkout-container {
