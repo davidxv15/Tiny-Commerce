@@ -8,7 +8,7 @@ function displayPage(products) {
   const paginatedProducts = products.slice(start, end);
 
   const list = document.getElementById("product-list");
-  list.innerHTML = ""; // 🔄 Clear previous products
+  list.innerHTML = ""; //  Clears previous products
 
   paginatedProducts.forEach((product) => {
     const card = document.createElement("div");
@@ -58,7 +58,7 @@ function setupPagination(products) {
 
   const totalPages = Math.ceil(products.length / productsPerPage);
 
-  // ◀️Previous Button
+  // ◀Previous Button
   const prevBtn = document.createElement("button");
   prevBtn.textContent = "Previous";
   prevBtn.disabled = currentPage === 1;
@@ -97,7 +97,7 @@ function setupPagination(products) {
 fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
-    displayPage(products);         // Load page 1
+    displayPage(products);         // Loads page 1
     setupPagination(products);     // Setup prev/next
   })
   .catch((err) => console.error("Failed to load products:", err));
