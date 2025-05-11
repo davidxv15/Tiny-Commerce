@@ -85,18 +85,18 @@
   border-color: var(--green);
   outline: none;
 }
-
   
   /* Submit Button */
   #checkout-form button {
-    background: var(--green);
-    color: white;
-    font-weight: bold;
-    padding: 0.7rem;
-    border: none;
-    border-radius: var(--radius);
-    font-size: 1.1rem;
-    cursor: pointer;
+    align-self: flex-end;
+  background: var(--green);
+  color: var(--light);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: var(--radius);
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
     transition: background-color var(--transition);
   }
   
