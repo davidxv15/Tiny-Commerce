@@ -75,6 +75,7 @@
     border-radius: var(--radius);
     border: 1px solid var(--medium-gray);
     font-size: 1rem;
+    color: var(--primary);
     background-color: var(--light);
     font-family: var(--font-primary);
   }
