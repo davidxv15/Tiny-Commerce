@@ -7,6 +7,13 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+.checkout-view h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+}
   
   /* === CONTAINER LAYOUT === */
   .checkout-container {
