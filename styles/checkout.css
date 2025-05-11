@@ -26,18 +26,17 @@
   }
   
   /* === SUMMARY COLUMN === */
-  #checkout-summary {
-    flex: 1;
-    min-width: 280px;
-    max-width: 400px;              /* ↓ more compact width */
-    background: var(--light-black);
-    padding: 1rem 1.5rem;
-    border-radius: var(--radius);
-    border: 1px solid var(--soft-gray);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); /* subtle elevation */
-    font-size: 1rem;
-    line-height: 1.6;
-  }
+  /* Summary of Products in Cart */
+#checkout-summary {
+  background-color: var(--light-black);
+  padding: 1.5rem;
+  border: 1px solid var(--soft-gray);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
   
   /* Highlight each product entry */
   .checkout-item {
