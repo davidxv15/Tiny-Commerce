@@ -79,6 +79,13 @@
     background-color: var(--light);
     font-family: var(--font-primary);
   }
+
+  #checkout-form input:focus,
+#checkout-form textarea:focus {
+  border-color: var(--green);
+  outline: none;
+}
+
   
   /* Submit Button */
   #checkout-form button {
