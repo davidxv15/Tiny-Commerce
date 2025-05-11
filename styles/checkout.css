@@ -102,6 +102,7 @@
   
   /* Button Hover State */
   #checkout-form button:hover {
+    transform: scale(1.05);
     background: var(--mintLeaf);
   }
   
