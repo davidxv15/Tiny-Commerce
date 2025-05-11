@@ -60,6 +60,9 @@
     background-color: var(--light-black);
     border-radius: var(--radius);
     border: 1px solid var(--soft-gray);
+    background-color: var(--primary);
+  border: 1px solid var(--soft-gray);
+  border-radius: var(--radius);
   }
   
   /* Input + Textarea Fields */
