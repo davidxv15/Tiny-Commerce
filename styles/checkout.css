@@ -39,6 +39,10 @@
   
   /* Highlight each product entry */
   .checkout-item {
+    display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 0.5rem 0;
     margin-bottom: 0.8rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px dashed var(--medium-gray); /* beat divider line */
