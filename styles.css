@@ -144,7 +144,7 @@ header p {
   margin-bottom: 1.5rem;
   border: 1px solid var(--mint);
   border-radius: 8px;
-  background: var(--light);
+  background: var(--primary);
   color: var(--light);
 }
 
