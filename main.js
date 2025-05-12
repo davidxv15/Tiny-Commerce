@@ -1,5 +1,6 @@
 let currentPage = 1;
 const productsPerPage = 9;
+let allProducts = [];
 
 //  Render the correct set of products per page
 function displayPage(products) {
