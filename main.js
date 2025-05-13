@@ -76,6 +76,15 @@ function setupSearch() {
   });
 }
 
+function debounce(func, delay) {
+  let timer;
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => func.apply(this, args), delay);
+  };
+}
+
+
 // Handles page navigation and button enable/disable
 function setupPagination(products) {
   const pagination = document.getElementById("pagination");
