@@ -138,6 +138,7 @@ header p {
 }
 
 .search-bar {
+  font-family: var(--font-primary);
   display: block;
   margin: 0 auto;
   align-items: center;
@@ -146,7 +147,7 @@ header p {
   font-size: 1.4rem;
   padding: .5rem;
   margin-bottom: 1.5rem;
-  border: 1px solid rgb(40, 40, 40);
+  border: 2px solid rgb(40, 40, 40);
   border-radius: 8px;
   background: var(--primary);
   color: var(--light-black);
