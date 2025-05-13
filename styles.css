@@ -149,7 +149,7 @@ header p {
   border: 1px solid var(--mint);
   border-radius: 8px;
   background: var(--primary);
-  color: var(--light);
+  color: var(--light-black);
 }
 
 
