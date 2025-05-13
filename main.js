@@ -28,6 +28,12 @@ function displayPage(products) {
     list.appendChild(card);
   });
 
+  if (products.length === 0) {
+    list.innerHTML = "<p>No matching products found.</p>";
+    return;
+  }
+  
+
   // Rebind button listeners AFTER injecting HTML
   bindCartButtons();
 }
