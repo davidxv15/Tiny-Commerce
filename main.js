@@ -116,8 +116,9 @@ function setupPagination(products) {
 fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
-    displayPage(products);         // Loads page 1
+    displayPage(products);        // Loads page 1
     setupPagination(products);     // Setup prev/next
+    setupSearch();                  // enables 
   })
   .catch((err) => console.error("Failed to load products:", err));
 
