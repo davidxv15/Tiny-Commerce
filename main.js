@@ -116,6 +116,7 @@ function setupPagination(products) {
 fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
+    allProducts = products;
     displayPage(products);        // Loads page 1
     setupPagination(products);     // Setup prev/next
     setupSearch();                  // enables 
