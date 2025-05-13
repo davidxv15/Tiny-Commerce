@@ -43,35 +43,35 @@
     },
     {
       "id": 7,
-      "name": "Shawl",
+      "name": "Tie",
       "description": "Because your cat deserves it",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=7"
     },
     {
       "id": 8,
-      "name": "Shawl",
+      "name": "Blanket",
       "description": "Because your cat deserves it",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=8"
     },
     {
       "id": 9,
-      "name": "Shawl",
+      "name": "Bolo Tie",
       "description": "Because your cat deserves it",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=9"
     },
     {
       "id": 10,
-      "name": "Shawl",
+      "name": "Unlucky Chew Toy",
       "description": "Because your cat deserves it",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=10"
     },
     {
       "id": 11,
-      "name": "Shawl",
+      "name": "Shoes",
       "description": "Because your cat deserves it",
       "price": 15.95,
       "image": "https://picsum.photos/300/200?random=11"
@@ -92,7 +92,7 @@
     },
     {
       "id": 14,
-      "name": "Lucky chew toy",
+      "name": "Snow Shoes",
       "description": "Because your cat deserves it",
       "price": 14.95,
       "image": "https://picsum.photos/300/200?random=14"
@@ -120,63 +120,63 @@
     },
     {
       "id": 18,
-      "name": "Again treats",
+      "name": "Snow Boots",
       "description": "Treat yo self",
       "price": 18.95,
       "image": "https://picsum.photos/300/200?random=18"
     },
     {
       "id": 19,
-      "name": "Again treats",
+      "name": "Gardening Hat",
       "description": "Treat yo self",
       "price": 19.95,
       "image": "https://picsum.photos/300/200?random=19"
     },
     {
       "id": 20,
-      "name": "Again treats",
+      "name": "Bandana",
       "description": "Treat yo self",
       "price": 20.95,
       "image": "https://picsum.photos/300/200?random=20"
     },
     {
       "id": 21,
-      "name": "Again treats",
+      "name": "Throwing Stick",
       "description": "Treat yo self",
       "price": 21.95,
       "image": "https://picsum.photos/300/200?random=21"
     },
     {
       "id": 22,
-      "name": "Again treats",
+      "name": "Fetching Stick",
       "description": "Treat yo self",
       "price": 22.95,
       "image": "https://picsum.photos/300/200?random=22"
     },
     {
       "id": 23,
-      "name": "Again treats",
+      "name": "Headphones",
       "description": "Treat yo self",
       "price": 23.95,
       "image": "https://picsum.photos/300/200?random=23"
     },
     {
       "id": 24,
-      "name": "Again treats",
+      "name": "Goggles",
       "description": "Treat yo self",
       "price": 24.95,
       "image": "https://picsum.photos/300/200?random=24"
     },
     {
       "id": 25,
-      "name": "Again treats",
+      "name": "Camping Vest",
       "description": "Treat yo self",
       "price": 25.95,
       "image": "https://picsum.photos/300/200?random=25"
     },
     {
       "id": 26,
-      "name": "Again treats",
+      "name": "Life Vest",
       "description": "Treat yo self",
       "price": 26.95,
       "image": "https://picsum.photos/300/200?random=26"
