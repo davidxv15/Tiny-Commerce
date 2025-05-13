@@ -52,6 +52,24 @@ function bindCartButtons() {
   });
 }
 
+// search bar 
+function setupSearch() {
+  const searchInput = document.getElementById("search-input");
+
+  searchInput.addEventListener("input", e => {
+    const keyword = e.target.value.toLowerCase();
+
+    const filtered = allProducts.filter(p =>
+      p.name.toLowerCase().includes(keyword) ||
+      p.description.toLowerCase().includes(keyword)
+    );
+
+    currentPage = 1; // Reset pagination
+    displayPage(filtered);
+    setupPagination(filtered);
+  });
+}
+
 // Handles page navigation and button enable/disable
 function setupPagination(products) {
   const pagination = document.getElementById("pagination");
