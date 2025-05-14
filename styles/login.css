@@ -39,6 +39,7 @@
 
   #login-form button:hover {
     background-color: var(--mintLeaf);
+    transform: scale(1.1);
   }
 
   #login-msg {
