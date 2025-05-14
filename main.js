@@ -144,3 +144,15 @@ document.querySelectorAll(".nav a").forEach((link) => {
     link.classList.add("active");
   }
 });
+
+function showToast(message = "Added to cart ✅") {
+  const toast = document.getElementById("toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  toast.classList.remove("hidden");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+    toast.classList.add("hidden");
+  }, 2000); // Disappear after 2 seconds
+}
