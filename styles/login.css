@@ -39,6 +39,7 @@
 
   #login-form button:hover {
     background-color: var(--mint);
+    color: var(--primary);
     transform: scale(1.1);
     transition:ease-in-out .2s;
   }
