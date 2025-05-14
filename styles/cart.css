@@ -72,3 +72,11 @@
     font-size: 1.8rem;
     color: var(--soft-gray);
   }
+
+  .empty-cart-msg {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--medium-gray);
+    margin-top: 6rem;
+  }
+  
