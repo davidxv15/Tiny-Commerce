@@ -31,7 +31,7 @@
     background-color: var(--green);
     color: white;
     border: none;
-    border-radius: 30px;
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease;
