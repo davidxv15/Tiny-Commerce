@@ -20,12 +20,41 @@
   }
 
   #login-form input {
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid var(--soft-gray);
-    background-color: var(--light);
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--mint);
+    color: var(--light);
+    outline: none;
+    width: 100%;
+    position: relative;
+    z-index: 1;
   }
-
+  
+  /* Aura-like glow */
+  #login-form input::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px; /* controls aura height */
+    width: 100%;
+    background: linear-gradient(to top, rgba(152, 255, 236, 0.3), transparent);
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  /* Optional: strong fade on focus */
+  #login-form input:focus::after {
+    background: linear-gradient(to top, rgba(152, 255, 236, 0.5), transparent);
+  }
+  
+  /* Light minty placeholder */
+  #login-form input::placeholder {
+    color: rgba(152, 255, 236, 0.5);
+  }
+  
   #login-form button {
     padding: 0.6rem;
     background-color: var(--green);
