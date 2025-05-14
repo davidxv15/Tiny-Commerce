@@ -1,9 +1,9 @@
 .login-view {
     max-width: 400px;
-    margin: 3rem auto;
+    margin: 1rem auto;
     padding: 2rem;
     background-color: var(--light-black);
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: var(--glow);
   }
 
@@ -21,7 +21,7 @@
 
   #login-form input {
     padding: 0.5rem;
-    border-radius: 30px;
+    border-radius: 5px;
     border: 1px solid var(--soft-gray);
     background-color: var(--light);
   }
