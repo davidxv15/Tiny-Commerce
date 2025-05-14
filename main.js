@@ -53,7 +53,7 @@ function bindCartButtons() {
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
-      alert("✅ Added to cart!");
+      showToast();
     });
   });
 }
