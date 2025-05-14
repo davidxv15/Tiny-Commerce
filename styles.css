@@ -330,12 +330,12 @@ header p {
 .toast {
   position: fixed;
   top: 10rem;
-  right: 30rem;
+  right: 40rem;
   background-color: var(--green);
   color: var(--light);
   padding: 1rem 1.5rem;
   border-radius: var(--radius);
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
   opacity: 0;
   transform: translateY(20px);
