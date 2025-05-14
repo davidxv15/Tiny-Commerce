@@ -38,8 +38,9 @@
   }
 
   #login-form button:hover {
-    background-color: var(--mintLeaf);
+    background-color: var(--mint);
     transform: scale(1.1);
+    transition:ease-in-out .2s;
   }
 
   #login-msg {
