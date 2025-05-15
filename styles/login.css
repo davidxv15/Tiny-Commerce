@@ -50,7 +50,7 @@
     background: linear-gradient(to top, rgba(152, 255, 236, 0.5), transparent);
   }
   
-  /* Light minty placeholder */
+  /* Light mint placeholder ?*/
   #login-form input::placeholder {
     color: rgba(152, 255, 236, 0.5);
   }
