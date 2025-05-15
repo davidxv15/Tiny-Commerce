@@ -156,8 +156,8 @@ header p {
 
 .search-bar:focus {
   color: var(--mint);
-  /* border: none; */
-  outline: none;
+  /* border: var(--mintLeaf); */
+  outline: var(--mintLeaf);
 }
 
 /* GRID layout */
