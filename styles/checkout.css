@@ -28,12 +28,12 @@
   /* Summary of Products in Cart */
 #checkout-summary {
   background-color: var(--light-black);
-  padding: 1.5rem;
-  border: 1px solid var(--soft-gray);
+  padding: 2rem;
+  border: 1px solid var(--mintLeaf);
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 
   
@@ -51,7 +51,7 @@
   /* === FORM COLUMN === */
   #checkout-form {
     flex: 1;
-    min-width: 280px;
+    min-width: 320px;
     max-width: 400px;             
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@
 
   #checkout-form label {
     font-weight: 600;
-    color: var(--mint);
+    color: var(--green);
   }
   
   /* Input + Textarea Fields */
@@ -74,9 +74,9 @@
     padding: 0.6rem;
     border-radius: var(--radius);
     border: 1px solid var(--medium-gray);
-    font-size: 1rem;
-    color: var(--primary);
-    background-color: var(--light);
+    font-size: 1.3rem;
+    color: var(--light-black);
+    background-color: var(--light-black);
     font-family: var(--font-primary);
   }
 
