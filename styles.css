@@ -137,6 +137,7 @@ header p {
   letter-spacing: 3px;
 }
 
+/* search bar rules */
 .search-bar {
   font-family: var(--font-primary);
   display: block;
@@ -151,6 +152,10 @@ header p {
   border-radius: 8px;
   background: var(--primary);
   color: var(--light-black);
+}
+
+.search-bar:focus {
+  color: white;
 }
 
 /* GRID layout */
