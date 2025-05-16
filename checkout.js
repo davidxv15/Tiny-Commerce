@@ -18,9 +18,10 @@ fetch('./data/products.json')
       total += itemTotal;
 
       return `
-        <div class="checkout-item">
-          <strong>${product.name}</strong> x${item.quantity} — $${itemTotal.toFixed(2)}
-        </div>
+      <div class="checkout-item">
+      <span class="product-name">${product.name}</span>
+      <span class="product-price">x${item.quantity} — $${itemTotal.toFixed(2)}</span>
+    </div>
       `;
     }).join('') + `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
   })
