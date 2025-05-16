@@ -14,18 +14,18 @@
   color: var(--green);
   margin-bottom: 1rem;
 }
-  
-  /* === CONTAINER LAYOUT === */
-  .checkout-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;     
-    align-items: flex-start;
-    padding: 1rem 0;
-  }
-  
-  /* Summary of Products in Cart */
+
+/* === CONTAINER LAYOUT === */
+.checkout-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 0;
+}
+
+/* === Summary of Cart Products === */
 #checkout-summary {
   background-color: var(--light-black);
   padding: 2rem;
@@ -35,67 +35,72 @@
   flex-direction: column;
   gap: 2rem;
 }
-
-  
-  /* product entry */
-  .checkout-item {
-    display: flex;
+/* product entry */
+.checkout-item {
+  display: flex;
   justify-content: space-between;
   font-size: 2rem;
   padding: 0.5rem 0;
-    margin-bottom: 0.8rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px dashed var(--medium-gray);
-  }
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--medium-gray);
+}
 
-  .checkout-item .product-name {
-    font-weight: 600;
-    color: var(--mint);
-    font-size: 1.2rem;
-    margin-bottom: 0.25rem;
-    display: block;
-  }
-  
-  /* === FORM COLUMN === */
-  #checkout-form {
-    flex: 1;
-    min-width: 320px;
-    max-width: 450px;             
-    display: flex;
-    flex-direction: column;
-    background-color: var(--light-black);
-    border-radius: var(--radius);
-    background-color: var(--primary);
-  }
+.checkout-item .product-name {
+  font-weight: 600;
+  color: var(--mint);
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+  display: block;
+  transform: translateY(-0.5em);
+}
 
-  #checkout-form label {
-    font-weight: 800;
-    font-size: 1.5em;
-    color: var(--green);
-  }
-  
-  /* Input + Textarea Fields */
-  #checkout-form input,
-  #checkout-form textarea {
-    width: 100%;
-    padding: 0.6rem;
-    border-radius: var(--radius);
-    border: 1px solid var(--medium-gray);
-    font-size: 1.3rem;
-    color: var(--light-black);
-    background-color: var(--light-black);
-    font-family: var(--font-primary);
-  }
+.checkout-item .product-price {
+  font-size: 1.5rem;
+  color: var(--light);
+  transform: translateY(1em);
+}
 
-  #checkout-form input:focus,
+/* === FORM COLUMN === */
+#checkout-form {
+  flex: 1;
+  min-width: 320px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-black);
+  border-radius: var(--radius);
+  background-color: var(--primary);
+}
+
+#checkout-form label {
+  font-weight: 800;
+  font-size: 1.5em;
+  color: var(--green);
+}
+
+/* Input + Textarea Fields */
+#checkout-form input,
+#checkout-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--medium-gray);
+  font-size: 1.3rem;
+  color: var(--light-black);
+  background-color: var(--light-black);
+  font-family: var(--font-primary);
+}
+
+#checkout-form input:focus,
 #checkout-form textarea:focus {
   border-color: var(--green);
   outline: none;
 }
-  
-  /* Submit Button */
-  #checkout-form button {
-    align-self: flex-end;
+
+/* Submit Button */
+#checkout-form button {
+  align-self: flex-end;
   background: var(--green);
   color: var(--light);
   border: none;
@@ -104,24 +109,23 @@
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s ease;
-    transition: background-color var(--transition);
+  transition: background-color var(--transition);
+}
+
+/* Button Hover State */
+#checkout-form button:hover {
+  transform: scale(1.05);
+  background: var(--mintLeaf);
+}
+
+@media (max-width: 768px) {
+  .checkout-container {
+    flex-direction: column;
+    align-items: stretch;
   }
-  
-  /* Button Hover State */
-  #checkout-form button:hover {
-    transform: scale(1.05);
-    background: var(--mintLeaf);
+
+  #checkout-summary,
+  #checkout-form {
+    max-width: 100%;
   }
-  
-  @media (max-width: 768px) {
-    .checkout-container {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  
-    #checkout-summary,
-    #checkout-form {
-      max-width: 100%;
-    }
-  }
-  
+}
