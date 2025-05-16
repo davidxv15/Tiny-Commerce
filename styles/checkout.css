@@ -37,7 +37,7 @@
 }
 
   
-  /* Highlight each product entry */
+  /* product entry */
   .checkout-item {
     display: flex;
   justify-content: space-between;
@@ -46,6 +46,14 @@
     margin-bottom: 0.8rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px dashed var(--medium-gray);
+  }
+
+  .checkout-item .product-name {
+    font-weight: 600;
+    color: var(--mint);
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+    display: block;
   }
   
   /* === FORM COLUMN === */
