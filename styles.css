@@ -166,7 +166,7 @@ header p {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  padding: 8rem;
+  padding: 4rem;
   justify-content: center;
 }
 
