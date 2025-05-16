@@ -76,6 +76,7 @@
 #checkout-form label {
   font-weight: 800;
   font-size: 1.5em;
+  margin-bottom: -.5rem;
   color: var(--green);
 }
 
@@ -83,7 +84,7 @@
 #checkout-form input,
 #checkout-form textarea {
   width: 100%;
-  padding: 0.6rem;
+  padding: .5rem;
   border-radius: var(--radius);
   border: 1px solid var(--medium-gray);
   font-size: 1.3rem;
@@ -100,11 +101,12 @@
 
 /* Submit Button */
 #checkout-form button {
-  align-self: flex-end;
+  align-self: center;
   background: var(--green);
   color: var(--light);
   border: none;
   padding: 0.7rem 1.5rem;
+  margin: -1.8rem 1rem;
   border-radius: var(--radius);
   font-weight: bold;
   cursor: pointer;
