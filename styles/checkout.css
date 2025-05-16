@@ -20,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: center;       /* ↓ center everything */
+    justify-content: center;     
     align-items: flex-start;
     padding: 1rem 0;
   }
@@ -45,7 +45,7 @@
   padding: 0.5rem 0;
     margin-bottom: 0.8rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px dashed var(--medium-gray); /* beat divider line */
+    border-bottom: 1px dashed var(--medium-gray);
   }
   
   /* === FORM COLUMN === */
@@ -63,7 +63,8 @@
   }
 
   #checkout-form label {
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 1.5em;
     color: var(--green);
   }
   
