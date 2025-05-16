@@ -38,12 +38,13 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -2px; /* start right at the border */
+    bottom: -2px;
     width: 100%;
-    height: 40px; /* how far glow fades upward */
+    height: 1rem; 
+    filter: blur(2px);
     background: linear-gradient(
       to top,
-      rgba(152, 255, 236, 0.4),
+      rgba(19, 231, 192, 0.766),
       transparent
     );
     z-index: 0;
