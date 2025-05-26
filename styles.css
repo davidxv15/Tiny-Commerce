@@ -132,7 +132,7 @@ header h1 {
 header p {
   font-size: 1.1rem;
   color: #666;
-  filter: blur(4.5px);
+  filter: blur(5px);
   transform: translateY(-0.7rem);
   letter-spacing: 3px;
 }
