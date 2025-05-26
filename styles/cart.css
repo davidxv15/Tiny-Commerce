@@ -33,6 +33,10 @@
   .cart-item h3 {
     font-size: 2rem;
   }
+
+  .cart-item p {
+    font-size: 1.2rem;
+  }
   
   .qty-btn {
     padding: 0.3rem 0.7rem;
