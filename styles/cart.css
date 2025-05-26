@@ -29,6 +29,10 @@
     border-radius: var(--radius);
     border: 1px solid var(--green);
   }
+
+  .cart-item h3 {
+    font-size: 2rem;
+  }
   
   .qty-btn {
     padding: 0.3rem 0.7rem;
