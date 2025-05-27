@@ -43,6 +43,7 @@
     margin: 0 0.3rem;
     font-size: .5rem;
     cursor: pointer;
+    background: none;
     color: var(--soft-gray);;
     transform: translateY(-.3rem)
   }
