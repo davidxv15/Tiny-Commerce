@@ -46,6 +46,7 @@
     color: var(--soft-gray);
     background-color: var(--primary);
     border-radius: var(--radius);
+    transform: translateY(-.3rem)
   }
 
   .qty-btn:hover {
