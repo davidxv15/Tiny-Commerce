@@ -33,7 +33,7 @@ fetch("./data/products.json")
     
       // Price
       const price = document.createElement('p');
-      price.textContent = `Price: $${product.price.toFixed(2)}`;
+      price.textContent = `$${product.price.toFixed(2)}`;
     
       // Quantity controls
       const quantityControls = document.createElement('div');
