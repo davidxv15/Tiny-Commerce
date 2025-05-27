@@ -43,8 +43,8 @@
     margin: 0 0.3rem;
     font-size: .5rem;
     cursor: pointer;
-    color: var(--soft-gray);
-    background-color: var(--primary);
+    color: var(--p);
+    background-color: var(--soft-gray);
     border-radius: var(--radius);
     transform: translateY(-.3rem)
   }
