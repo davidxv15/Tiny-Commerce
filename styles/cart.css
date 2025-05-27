@@ -50,6 +50,7 @@
 
   .qty-btn:hover {
     background-color: var(--mint);
+    color: var(--primary);
   }
   
   .qty {
