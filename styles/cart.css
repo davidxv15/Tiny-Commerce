@@ -44,7 +44,7 @@
     font-size: 1rem;
     cursor: pointer;
     color: var(--primary);
-    background-color: var(--light);
+    background-color: var(--primary);
     border-radius: var(--radius);
   }
 
