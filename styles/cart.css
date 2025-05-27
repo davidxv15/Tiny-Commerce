@@ -71,6 +71,7 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transform:translateX(1.5rem)
   }
   
   .remove-btn:hover {
