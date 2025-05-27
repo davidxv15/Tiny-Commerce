@@ -45,13 +45,14 @@
     cursor: pointer;
     background: none;
     border: none;
-    color: var(--soft-gray);;
-    transform: translateY(-.3rem)
+    color: var(--soft-gray);
+    transform: translateY(-.3rem);
   }
 
   .qty-btn:hover {
     background-color: var(--mint);
     color: var(--primary);
+    border-radius: var(--radius);
   }
   
   .qty {
