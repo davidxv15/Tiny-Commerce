@@ -41,7 +41,7 @@
   .qty-btn {
     padding: 0.3rem 0.7rem;
     margin: 0 0.3rem;
-    font-size: 1.2rem;
+    font-size: .5rem;
     cursor: pointer;
     color: var(--soft-gray);
     background-color: var(--primary);
