@@ -89,7 +89,7 @@ infoCol.className = 'cart-info';
 infoCol.innerHTML = `
   <h3>${product.name}</h3>
   <p>${product.description}</p>
-  <p>Price: $${product.price.toFixed(2)}</p>
+  <p> $${product.price.toFixed(2)}</p>
 `;
 
 // Controls column
