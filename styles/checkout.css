@@ -59,7 +59,7 @@
   display: flex;
   font-size: 1.5rem;
   color: var(--light);
-  transform: translateY(1em);
+  transform: translateY(.6em);
 }
 
 /* === FORM COLUMN === */
