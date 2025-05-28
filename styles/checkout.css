@@ -57,9 +57,9 @@
 
 .checkout-item .product-price {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--light);
-  transform: translateY(.6em);
+  transform: translateY(.7em);
 }
 
 /* === FORM COLUMN === */
