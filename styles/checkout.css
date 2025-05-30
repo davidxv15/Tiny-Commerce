@@ -63,6 +63,7 @@
 
 .checkout-total {
   font-size: 2rem;
+  display: flex;
 }
 
 /* === FORM COLUMN === */
