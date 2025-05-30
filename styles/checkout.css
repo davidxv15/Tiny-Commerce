@@ -92,6 +92,7 @@
   padding: .5rem;
   font-size: 1.3rem;
   color: var(--light-gray);
+  border: none;
   background: transparent;
   font-family: var(--font-primary);
 }
