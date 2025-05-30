@@ -23,7 +23,9 @@ fetch('./data/products.json')
       <span class="product-price">x${item.quantity} — $${itemTotal.toFixed(2)}</span>
     </div>
       `;
-    }).join('') + `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
+    }).join('') + `
+    <p><strong>Total: $${total.toFixed(2)}</strong></p>
+    `;
   })
   .catch(err => {
     console.error("Failed to load checkout data:", err);
