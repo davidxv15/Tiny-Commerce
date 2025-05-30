@@ -29,7 +29,6 @@
 #checkout-summary {
   background-color: var(--light-black);
   padding: 2rem;
-  border: .5px solid var(--mintLeaf);
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
