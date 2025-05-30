@@ -47,7 +47,7 @@
 
 .checkout-item .product-name {
   font-weight: 600;
-  color: var(--mintLeaf);
+  color: var(--light-gray);
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
   display: block;
