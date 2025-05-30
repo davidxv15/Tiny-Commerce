@@ -85,8 +85,6 @@
 #checkout-form textarea {
   width: 100%;
   padding: .5rem;
-  border-radius: var(--radius);
-  border: 1px solid var(--medium-gray);
   font-size: 1.3rem;
   color: var(--light-black);
   background-color: var(--light-black);
