@@ -86,7 +86,7 @@
   width: 100%;
   padding: .5rem;
   font-size: 1.3rem;
-  color: var(--light-black);
+  color: var(--light-gray);
   background-color: var(--light-black);
   font-family: var(--font-primary);
 }
