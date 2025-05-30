@@ -24,7 +24,7 @@ fetch('./data/products.json')
     </div>
       `;
     }).join('') + `
-    <div>
+    <div class="checkout-total">
     <p><strong>Total: $${total.toFixed(2)}</strong></p>
     </div>
     `;
