@@ -24,7 +24,9 @@ fetch('./data/products.json')
     </div>
       `;
     }).join('') + `
+    <div>
     <p><strong>Total: $${total.toFixed(2)}</strong></p>
+    </div>
     `;
   })
   .catch(err => {
