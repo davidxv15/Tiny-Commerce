@@ -93,6 +93,7 @@
   font-size: 1.3rem;
   color: var(--light-gray);
   border: none;
+  border-bottom: 2px solid var(--mint);
   background: transparent;
   font-family: var(--font-primary);
 }
