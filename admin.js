@@ -1,3 +1,4 @@
+// --- ADMIN CHECK ---
 const user = JSON.parse(localStorage.getItem('user'));
 const msg = document.getElementById('admin-msg');
 const content = document.getElementById('admin-content');
@@ -11,12 +12,14 @@ if (!user || !user.isAdmin) {
   renderProducts();
 }
 
+// --- LOGOUT ---
 document.getElementById('logout-link').addEventListener('click', e => {
   e.preventDefault();
   localStorage.removeItem('user');
   window.location.href = 'index.html';
 });
 
+// --- ADD PRODUCT ---
 document.getElementById('product-form').addEventListener('submit', e => {
   e.preventDefault();
 
@@ -31,24 +34,25 @@ document.getElementById('product-form').addEventListener('submit', e => {
   }
 
   const newProduct = {
-    id: Date.now(), // simple unique ID
+    id: Date.now(),
     name,
     price,
     description,
     image,
     inStock: true,
-    rating: 4.5 // fake default
+    rating: 4.5 // default
   };
 
   const products = JSON.parse(localStorage.getItem('productDB')) || [];
   products.push(newProduct);
   localStorage.setItem('productDB', JSON.stringify(products));
 
-  alert(' Product added!');
+  alert('✅ Product added!');
   e.target.reset();
   renderProducts();
 });
 
+// --- RENDER PRODUCTS (with delete) ---
 function renderProducts() {
   const products = JSON.parse(localStorage.getItem('productDB')) || [];
   productList.innerHTML = '';
@@ -58,15 +62,26 @@ function renderProducts() {
     return;
   }
 
-  products.forEach(p => {
+  products.forEach((p, idx) => {
     const item = document.createElement('div');
     item.className = 'admin-product';
     item.innerHTML = `
       <strong>${p.name}</strong><br>
       $${p.price.toFixed(2)}<br>
       <em>${p.description}</em><br>
-      <img src="${p.image}" alt="${p.name}" style="width: 80px;"><hr>
+      <img src="${p.image}" alt="${p.name}" style="width:80px;"><br>
+      <button class="delete-btn" data-id="${p.id}">🗑 Delete</button>
+      <hr>
     `;
     productList.appendChild(item);
+
+    // Delete button event
+    item.querySelector('.delete-btn').addEventListener('click', () => {
+      if (confirm(`Delete "${p.name}"?`)) {
+        products.splice(idx, 1);
+        localStorage.setItem('productDB', JSON.stringify(products));
+        renderProducts();
+      }
+    });
   });
 }
