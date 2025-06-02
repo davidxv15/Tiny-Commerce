@@ -83,15 +83,20 @@
 
 #product-form input,
 #product-form textarea {
-  font-size: 1.07rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--soft-gray);
-  background: #131722;
-  color: var(--soft-gray);
-  padding: 0.5rem 0.85rem;
-  margin-bottom: 0.3rem;
-  font-family: var(--admin-font);
-  transition: border-color 0.2s;
+    display: block;
+    width: 100%;
+    font-size: 1.09rem;
+    padding: 0.54rem 1rem;
+    border-radius: 0.48rem;
+    border: 1.2px solid var(--soft-gray);
+    background: #131722;
+    color: var(--soft-gray);
+    margin-top: 0.11rem;                 /* Slight offset below label */
+    font-family: var(--admin-font, "Outfit", Arial, sans-serif);
+    box-sizing: border-box;
+    transition: border-color 0.18s, box-shadow 0.18s;
+    outline: none;
+    resize: vertical;
 }
 
 #product-form input:focus,
