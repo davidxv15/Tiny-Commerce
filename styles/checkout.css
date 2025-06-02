@@ -19,7 +19,7 @@
 .checkout-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 12rem;
   justify-content: center;
   align-items: flex-start;
   padding: 1rem 0;
