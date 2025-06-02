@@ -81,6 +81,10 @@
   transition: color 0.18s;
 }
 
+.product-form-field {
+    margin-bottom: 1.1rem;               
+  }
+
 #product-form input,
 #product-form textarea {
   display: block;
