@@ -72,10 +72,13 @@
 }
 
 #product-form label {
-  font-weight: 600;
-  color: var(--mintLeaf);
-  margin-bottom: 0.2rem;
-  font-size: 1rem;
+    display: block;
+    font-weight: 600;
+    color: var(--mintLeaf);
+    margin-bottom: 0.38em;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    transition: color 0.18s;  
 }
 
 #product-form input,
