@@ -214,3 +214,52 @@
 
 /* Toast points */
 
+/* ========== ADMIN TOAST NOTIFICATION ========== */
+.admin-toast {
+    position: fixed;
+    top: 2.8rem;
+    right: 2.8rem;
+    z-index: 2100;
+    background: linear-gradient(95deg, var(--mintLeaf) 60%, var(--green) 100%);
+    color: #191e2e;
+    font-family: var(--admin-font, "Outfit", Arial, sans-serif);
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 0.9rem;
+    padding: 1.15rem 2.2rem;
+    box-shadow: 0 6px 30px 0 rgba(32,240,140,0.11);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-30px) scale(0.96);
+    transition:
+      opacity 0.3s cubic-bezier(.4,0,.2,1),
+      transform 0.3s cubic-bezier(.4,0,.2,1);
+  }
+  
+  .admin-toast.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0) scale(1.04);
+  }
+  
+  .admin-toast.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  @media (max-width: 700px) {
+    .admin-toast {
+      top: 1.2rem;
+      right: 50%;
+      left: 50%;
+      transform: translate(-50%, -50px) scale(0.94);
+      min-width: 200px;
+      max-width: 94vw;
+      font-size: 1rem;
+      padding: 0.85rem 1.2rem;
+    }
+    .admin-toast.show {
+      transform: translate(-50%, 0) scale(1.02);
+    }
+  }
+  
