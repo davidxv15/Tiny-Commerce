@@ -47,7 +47,7 @@ document.getElementById('product-form').addEventListener('submit', e => {
   products.push(newProduct);
   localStorage.setItem('productDB', JSON.stringify(products));
 
-  alert('✅ Product added!');
+  showAdminToast("✅ Product added!");
   e.target.reset();
   renderProducts();
 });
