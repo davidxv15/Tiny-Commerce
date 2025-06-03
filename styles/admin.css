@@ -221,7 +221,7 @@
     right: 2.8rem;
     z-index: 2100;
     background: linear-gradient(95deg, var(--mintLeaf) 60%, var(--green) 100%);
-    color: #191e2e;
+    color: var(--admin-card-bg);
     font-family: var(--admin-font, "Outfit", Arial, sans-serif);
     font-size: 1.1rem;
     font-weight: 700;
