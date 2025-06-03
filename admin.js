@@ -49,7 +49,7 @@ document.getElementById('product-form').addEventListener('submit', e => {
 
 // toast options
 
-  showAdminToast("✅ Product added!");
+  showAdminToast("✅ Product Added!");
   e.target.reset();
   renderProducts();
 });
