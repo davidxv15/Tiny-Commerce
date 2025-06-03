@@ -85,17 +85,18 @@ function renderProducts() {
         renderProducts();
       }
     });
-    function showAdminToast(message = "✅ Product added!") {
-      const toast = document.getElementById("admin-toast");
-      toast.textContent = message;
-      toast.classList.add("show");
-      toast.classList.remove("hidden");
-    
-      setTimeout(() => {
-        toast.classList.remove("show");
-        toast.classList.add("hidden");
-      }, 1800); // duration in ms
-    }
     
   });
+}
+
+function showAdminToast(message = "✅ Product added!") {
+  const toast = document.getElementById("admin-toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  toast.classList.remove("hidden");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+    toast.classList.add("hidden");
+  }, 1800); // duration in ms
 }
