@@ -82,6 +82,7 @@ function renderProducts() {
       if (confirm(`Delete "${p.name}"?`)) {
         products.splice(idx, 1);
         localStorage.setItem('productDB', JSON.stringify(products));
+        showAdminToast(`🗑️ "${p.name}" deleted!`);
         renderProducts();
       }
     });
