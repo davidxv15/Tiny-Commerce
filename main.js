@@ -86,18 +86,24 @@ function debounce(func, delay) {
 
 
 // Handles page navigation and button enable/disable
-const paginationTop = document.getElementById("pagination-top");
+function setupPagination(products) {
+  const paginationTop = document.getElementById("pagination-top");
   const paginationBottom = document.getElementById("pagination-bottom");
   paginationTop.innerHTML = "";
   paginationBottom.innerHTML = "";
 
   const totalPages = Math.ceil(products.length / productsPerPage);
 
-  // ◀Previous Button
-  const prevBtn = document.createElement("button");
-  prevBtn.textContent = "Previous";
-  prevBtn.disabled = currentPage === 1;
-  prevBtn.addEventListener("click", () => {
+  // Previous Button
+  function createButton(text, disabled, handler) {
+    const btn = document.createElement("button");
+    btn.textContent = text;
+    btn.disabled = disabled;
+    btn.addEventListener("click", handler);
+    return btn;
+  }
+
+  const prevBtn = createButton("Previous", currentPage === 1, () => {
     if (currentPage > 1) {
       currentPage--;
       displayPage(products);
@@ -105,19 +111,12 @@ const paginationTop = document.getElementById("pagination-top");
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
-  pagination.appendChild(prevBtn);
 
-  //  Page Number Info
   const pageInfo = document.createElement("span");
   pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
   pageInfo.className = "page-info";
-  pagination.appendChild(pageInfo);
 
-  // ▶️ Next Button
-  const nextBtn = document.createElement("button");
-  nextBtn.textContent = "Next";
-  nextBtn.disabled = currentPage === totalPages;
-  nextBtn.addEventListener("click", () => {
+  const nextBtn = createButton("Next", currentPage === totalPages, () => {
     if (currentPage < totalPages) {
       currentPage++;
       displayPage(products);
@@ -125,8 +124,15 @@ const paginationTop = document.getElementById("pagination-top");
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
-  pagination.appendChild(nextBtn);
+
+  // Add to BOTH paginations
+  [paginationTop, paginationBottom].forEach(pagination => {
+    pagination.appendChild(prevBtn.cloneNode(true));
+    pagination.appendChild(pageInfo.cloneNode(true));
+    pagination.appendChild(nextBtn.cloneNode(true));
+  });
 }
+
 
 //  Fetch product data and initialize view
 fetch("./data/products.json")
