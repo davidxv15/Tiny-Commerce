@@ -156,3 +156,24 @@ function showToast(message = "Added to cart ✅") {
     toast.classList.add("hidden");
   }, 2000); // Disappear after 2 seconds
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+  const user = JSON.parse(localStorage.getItem('user'));
+  if (user && user.isAdmin) {
+    const nav = document.querySelector('.nav');
+    // Only add if it's not already present (avoids duplicates on rerenders)
+    if (!nav.querySelector('.admin-link')) {
+      const adminLink = document.createElement('a');
+      adminLink.href = 'admin.html';
+      adminLink.textContent = 'Admin';
+      adminLink.className = 'admin-link';
+      // Insert just before the logout link if present, else at end
+      const logoutLink = nav.querySelector('#logout-link');
+      if (logoutLink) {
+        nav.insertBefore(adminLink, logoutLink);
+      } else {
+        nav.appendChild(adminLink);
+      }
+    }
+  }
+});
