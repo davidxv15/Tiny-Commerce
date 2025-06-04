@@ -86,9 +86,10 @@ function debounce(func, delay) {
 
 
 // Handles page navigation and button enable/disable
-function setupPagination(products) {
-  const pagination = document.getElementById("pagination");
-  pagination.innerHTML = "";
+const paginationTop = document.getElementById("pagination-top");
+  const paginationBottom = document.getElementById("pagination-bottom");
+  paginationTop.innerHTML = "";
+  paginationBottom.innerHTML = "";
 
   const totalPages = Math.ceil(products.length / productsPerPage);
 
