@@ -70,7 +70,7 @@ function setupSearch() {
       p.description.toLowerCase().includes(keyword)
     );
 
-    currentPage = 1; // Reset pagination
+    currentPage = 1; // Reset pagination 
     displayPage(filtered);
     setupPagination(filtered);
   });
@@ -102,6 +102,19 @@ function setupPagination(products) {
     btn.addEventListener("click", handler);
     return btn;
   }
+
+  function addPagination(paginationBar, products) {
+    const totalPages = Math.ceil(products.length / productsPerPage);
+
+    // === New: First Button ===
+    const firstBtn = createButton("First", currentPage === 1, () => {
+      if (currentPage !== 1) {
+        currentPage = 1;
+        displayPage(products);
+        setupPagination(products);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    });
 
   const prevBtn = createButton("Previous", currentPage === 1, () => {
     if (currentPage > 1) {
