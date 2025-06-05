@@ -2,7 +2,7 @@ let currentPage = 1;
 const productsPerPage = 9;
 let allProducts = [];
 
-//  Render the correct set of products per page
+//  Render the correct set of products per page, checks productsPerPage for accuracy
 function displayPage(products) {
   const start = (currentPage - 1) * productsPerPage;
   const end = start + productsPerPage;
