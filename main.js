@@ -2,7 +2,7 @@ let currentPage = 1;
 const productsPerPage = 9;
 let allProducts = [];
 
-// Render the correct set of products per page
+// Render the correct set of products per page, checks productsPerPage
 function displayPage(products) {
   const start = (currentPage - 1) * productsPerPage;
   const end = start + productsPerPage;
@@ -94,7 +94,7 @@ function setupPagination(products) {
 
   function addPagination(paginationBar, products) {
     // First Button
-    const firstBtn = createButton("First", currentPage === 1, () => {
+    const firstBtn = createButton("First Page", currentPage === 1, () => {
       if (currentPage !== 1) {
         currentPage = 1;
         displayPage(products);
