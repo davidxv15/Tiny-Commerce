@@ -125,12 +125,44 @@ function setupPagination(products) {
     }
   });
 
-  // Add to BOTH paginations
-  [paginationTop, paginationBottom].forEach(pagination => {
-    pagination.appendChild(prevBtn.cloneNode(true));
-    pagination.appendChild(pageInfo.cloneNode(true));
-    pagination.appendChild(nextBtn.cloneNode(true));
-  });
+  function addPagination(paginationBar, products) {
+    // Previous Button
+    const prevBtn = createButton("Previous", currentPage === 1, () => {
+      if (currentPage > 1) {
+        currentPage--;
+        displayPage(products);
+        setupPagination(products);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    });
+  
+    // Page Info
+    const totalPages = Math.ceil(products.length / productsPerPage);
+    const pageInfo = document.createElement("span");
+    pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+    pageInfo.className = "page-info";
+  
+    // Next Button
+    const nextBtn = createButton("Next", currentPage === totalPages, () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        displayPage(products);
+        setupPagination(products);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    });
+  
+    paginationBar.appendChild(prevBtn);
+    paginationBar.appendChild(pageInfo);
+    paginationBar.appendChild(nextBtn);
+  }
+  
+  // In setupPagination:
+  paginationTop.innerHTML = "";
+  paginationBottom.innerHTML = "";
+  addPagination(paginationTop, products);
+  addPagination(paginationBottom, products);
+  
 }
 
 
