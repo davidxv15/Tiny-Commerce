@@ -26,7 +26,7 @@
   --font-secondary: "Fira Sans", sans-serif;
 
   /*  Utility Variables */
-  --radius: 5px;
+  --radius: 8px;
   /* --shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   --transition: 0.2s ease-in-out;
   --container-max: 1200px;
