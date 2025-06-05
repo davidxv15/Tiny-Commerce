@@ -316,6 +316,25 @@ header p {
   transform: scale(1.3);
 }
 
+.pagination button:first-child,
+.pagination button:last-child {
+  background-color: var(--mintLeaf);
+  color: var(--primary);
+  font-weight: bold;
+  border: 2px solid var(--mint);
+  box-shadow: 0 1px 6px rgba(62, 180, 137, 0.13);
+  /* Add any other styles you want! */
+}
+
+/* Optional: A little extra hover pop */
+.pagination button:first-child:hover,
+.pagination button:last-child:hover {
+  background-color: var(--green);
+  color: var(--light);
+  box-shadow: 0 0 12px var(--mint);
+}
+
+
 /* Animations */
 @keyframes float {
   0%,
