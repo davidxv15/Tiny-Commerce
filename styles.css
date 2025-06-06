@@ -303,12 +303,12 @@ header p {
 
 .pagination button {
   height: 3rem;
-  width: 5rem;
+  width: 6rem;
   font-family: var(--font-primary);
   font-size: 1em;
   color: var(--light);
   background-color: var(--primary);
-  border: 1px solid var(--mint);
+  border: 1px solid var(--primary);
   border-radius: var(--radius);
   transition: transform 0.2s ease;
   box-shadow: 0 1px 6px rgba(62, 180, 137, 0.13);
