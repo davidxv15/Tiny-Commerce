@@ -345,7 +345,7 @@ header p {
 .page-label,
 .page-of {
   color: var(--light);
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .page-number {
