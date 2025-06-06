@@ -323,7 +323,7 @@ header p {
 .pagination button:first-child,
 .pagination button:last-child {
   background-color: var(--mintLeaf);
-  color: var(--primary);
+  color: var(--light);
   font-weight: bold;
   border: none;
   box-shadow: 0 1px 6px rgba(62, 180, 137, 0.13);
