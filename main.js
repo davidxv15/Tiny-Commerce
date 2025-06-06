@@ -115,7 +115,7 @@ function setupPagination(products) {
 
     // Page Info
     const pageInfo = document.createElement("span");
-    pageInfo.innerHTML = `<span class="page-label">Page</span> <span class="page-number">${currentPage}</span> <span class="page-of">of</span> <span class="page-total">${totalPages}</span>`;
+    pageInfo.innerHTML = `<span class="page-label" style="display: block">Page</span> <span class="page-number">${currentPage}</span> <span class="page-of">of</span> <span class="page-total">${totalPages}</span>`;
 
     pageInfo.className = "page-info";
 
