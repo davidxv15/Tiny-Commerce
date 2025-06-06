@@ -336,6 +336,28 @@ header p {
   box-shadow: 0 0 12px var(--mint);
 }
 
+.page-info {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.page-label,
+.page-of {
+  color: var(--light);
+  opacity: 0.7;
+}
+
+.page-number {
+  color: var(--mintLeaf);
+  font-size: 1.3em;
+}
+
+.page-total {
+  color: var(--green);
+  font-size: 1.2em;
+}
+
 
 /* Animations */
 @keyframes float {
