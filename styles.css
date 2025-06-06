@@ -325,7 +325,7 @@ header p {
   background-color: var(--mintLeaf);
   color: var(--primary);
   font-weight: bold;
-  border: 2px solid var(--mint);
+  border: none;
   box-shadow: 0 1px 6px rgba(62, 180, 137, 0.13);
 }
 
