@@ -297,8 +297,8 @@ header p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding: 2rem 0;
-  font-weight: 600;
+  padding: 3rem 0 .1rem 0;
+  /* font-weight: 600; */
 }
 
 .pagination button {
