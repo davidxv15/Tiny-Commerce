@@ -337,6 +337,10 @@ header p {
   box-shadow: 0 0 12px var(--mint);
 }
 
+#pagination-bottom {
+  transform: translateY(-4em);
+}
+
 .page-info {
   font-size: 1rem;
   font-weight: 400;
