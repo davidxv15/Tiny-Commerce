@@ -347,6 +347,10 @@ header p {
   letter-spacing: 1.5px;
 }
 
+.page-info:hover {
+  scale: 1.1;
+}
+
 .page-label,
 .page-of {
   color: var(--light);
