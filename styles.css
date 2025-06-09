@@ -40,7 +40,7 @@
 }
 
 a:visited {
-  color: var(--red);
+  color: var(--success);
 }
 
 .nav {
