@@ -346,6 +346,7 @@ header p {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1.8px;
+  transition: transform 0.2s ease;
 }
 
 .page-info:hover {
