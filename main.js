@@ -155,10 +155,13 @@ function setupPagination(products) {
 fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
-    allProducts = products;
-    displayPage(products);        // Loads page 1
-    setupPagination(products);    // Setup prev/next/first/last
-    setupSearch();               // Enable search
+    // 1. Grab admin-added products from localStorage
+    const localProducts = JSON.parse(localStorage.getItem('productDB')) || [];
+    // 2. Merge arrays
+    allProducts = products.concat(localProducts);
+    displayPage(allProducts);        
+    setupPagination(allProducts);     
+    setupSearch();                   
   })
   .catch((err) => console.error("Failed to load products:", err));
 
