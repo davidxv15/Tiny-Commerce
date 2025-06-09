@@ -99,5 +99,5 @@ function showAdminToast(message = "✅ Product added!") {
   setTimeout(() => {
     toast.classList.remove("show");
     toast.classList.add("hidden");
-  }, 1800); // duration in ms
+  }, 4000); // duration in ms
 }
