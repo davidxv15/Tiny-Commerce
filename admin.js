@@ -72,7 +72,7 @@ function renderProducts() {
       $${p.price.toFixed(2)}<br>
       <em>${p.description}</em><br>
       <img src="${p.image}" alt="${p.name}" style="width:80px;"><br>
-      <button class="delete-btn" data-id="${p.id}">🗑 Delete</button>
+      <button class="delete-btn" data-id="${p.id}">Delete</button>
       <hr>
     `;
     productList.appendChild(item);
