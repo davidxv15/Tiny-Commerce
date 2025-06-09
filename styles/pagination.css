@@ -90,16 +90,16 @@
 #pagination-bottom {
   transform: translateY(-4em);
 }
-
+/* 
 .page-info {
   font-size: 1rem;
-  /* font-weight: 400; */
+  font-weight: 400;
   letter-spacing: 1.5px;
-}
+} */
 
 .page-label,
 .page-of {
-  color: var(--light);
+  /* color: var(--light); */
   /* opacity: 0.7; */
 }
 
