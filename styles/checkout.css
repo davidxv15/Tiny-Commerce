@@ -54,6 +54,11 @@
   transform: translateY(-0.5em);
 }
 
+.product-name:visited {
+  color: ;
+  bg-color: ;
+}
+
 .checkout-item .product-price {
   display: flex;
   font-size: 1.4rem;
