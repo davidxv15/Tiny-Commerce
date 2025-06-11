@@ -19,8 +19,10 @@ fetch('./data/products.json')
 
       return `
       <div class="checkout-item">
+      <a href="product.html?id=${product.id}">
       <img src="${product.image}" alt="${product.name}" class="#" style="width:5rem"/>
       <span class="product-name">${product.name}</span>
+      </a>
       <span class="product-price">x${item.quantity} — $${itemTotal.toFixed(2)}</span>
     </div>
       `;
