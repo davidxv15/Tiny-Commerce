@@ -55,8 +55,8 @@
 }
 
 .product-name:visited {
-  color: ;
-  bg-color: ;
+  color: red;
+  background-color: pink;
 }
 
 .checkout-item .product-price {
