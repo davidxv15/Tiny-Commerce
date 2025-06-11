@@ -333,7 +333,7 @@ header p {
 
 .pagination button:first-child:hover,
 .pagination button:last-child:hover {
-  background-color: var(--light);
+  background-color: var(--primary);
   color: var(--primary);
   box-shadow: 0 0 12px var(--mint);
 }
