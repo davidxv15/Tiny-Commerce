@@ -36,3 +36,6 @@
     color: var(--soft-gray);
   }
   
+  .add-to-cart {
+    width: 12rem;
+  }
