@@ -37,6 +37,7 @@
   padding: 2rem;
   text-align: center;
   color: var(--light);
+  transition: transform 0.2s ease;
 }
 
 .cart-view h1:hover {
