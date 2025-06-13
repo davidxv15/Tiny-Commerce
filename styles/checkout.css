@@ -16,6 +16,10 @@
   transition: transform 0.2s ease;
 }
 
+.checkout-view h1:hover {
+
+}
+
 /* === CONTAINER LAYOUT === */
 .checkout-container {
   display: flex;
