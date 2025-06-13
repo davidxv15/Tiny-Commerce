@@ -1,3 +1,36 @@
+:root {
+  /* neutral palette */
+  --primary: #0d1117;
+  --accent: #1f6feb;
+  --soft-gray: #c9d1d9;
+  --medium-gray: #8b949e;
+  --light: #f0f6fc;
+
+  --danger: #da3633;
+  --success: #238636;
+
+  --red: #e63946;
+  --orange: #ff7043;
+  --yellow: #f4a261;
+  --green: #2a9d8f;
+  --mint: #98ffec;
+  --mintLeaf: #3eb489;
+  --blue: #457b9d;
+  --purple: #8d5eab;
+  --pink: #f472b6;
+
+  /*  Fonts (use w/ font-family) */
+  --font-primary: "Outfit", sans-serif;
+  --font-secondary: "Fira Sans", sans-serif;
+
+  /*  Utility Variables */
+  --radius: 8px;
+  /* --shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  --transition: 0.2s ease-in-out;
+  --container-max: 1200px;
+  --glow: 0 0 16px var(--green);
+}
+
 .cart-view h1 {
   font-size: 2.7rem;
   margin: 1rem 0 1rem;
