@@ -24,6 +24,7 @@
 }
 
 .cart-item img {
+  max-width: 14em;
   width: 1rem;
   border-radius: var(--radius);
   /* border: 1px solid var(--green); */
