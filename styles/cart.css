@@ -39,6 +39,10 @@
   color: var(--light);
 }
 
+.cart-view h1:hover {
+  
+}
+
 .products-in-cart {
   display: flex;
   flex-direction: column;
