@@ -40,7 +40,7 @@
 }
 
 .cart-view h1:hover {
-  
+  scale: 1.1;
 }
 
 .products-in-cart {
