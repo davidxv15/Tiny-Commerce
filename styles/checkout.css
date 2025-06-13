@@ -13,7 +13,7 @@
   font-size: 3rem;
   color: var(--light-gray);
   margin-bottom: 1rem;
-  transition: transform 0.2s ease;
+  transition: transform 0.1s ease;
 }
 
 .checkout-view h1:hover {
