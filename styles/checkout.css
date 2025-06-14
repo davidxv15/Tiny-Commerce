@@ -132,7 +132,7 @@
 /* Button Hover State */
 #checkout-form button:hover {
   transform: scale(1.05);
-  background: var(--mintLeaf);
+  /* background: 0 0 16px var(--green); */
 }
 
 @media (max-width: 768px) {
