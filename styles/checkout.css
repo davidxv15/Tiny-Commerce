@@ -72,7 +72,7 @@
 }
 
 .checkout-total {
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: flex-end;
   transform: translateX(60px);
