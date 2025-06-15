@@ -123,6 +123,7 @@
   background: var(--green);
   color: var(--light);
   border: none;
+  width: 50%;
   padding: 0.7rem 1.5rem;
   margin: -1.8rem 1rem;
   border-radius: var(--radius);
