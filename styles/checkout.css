@@ -92,7 +92,7 @@
   font-weight: 400; /* style this */
   font-size: 1.5em;
   margin-bottom: -1.5rem;
-  color: var(--green);
+  color: var(--light-black);
 }
 
 /* Input + Textarea Fields */
