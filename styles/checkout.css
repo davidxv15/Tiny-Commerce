@@ -67,7 +67,7 @@
 .checkout-item .product-price {
   display: flex;
   font-size: 1.4rem;
-  color: var(--light);
+  color: var(--light-black);
   transform: translateY(.7em);
 }
 
