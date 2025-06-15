@@ -138,6 +138,7 @@
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
   box-shadow: 0 0 12px var(--mint);
+  color: black;
   /* background: 0 0 16px var(--green); */
 }
 
