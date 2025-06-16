@@ -136,7 +136,7 @@
 /* Button Hover State */
 #checkout-form button:hover {
   transform: scale(1.3);
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   box-shadow: 0 0 12px var(--mint);
   color: black;
   background-color: white;
