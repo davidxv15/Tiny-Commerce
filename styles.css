@@ -43,6 +43,10 @@ a:visited {
   color: var(--light-black);
 }
 
+a:hover {
+  color: var(--mintLeaf);
+}
+
 .nav {
   position: fixed;
   top: 0;
