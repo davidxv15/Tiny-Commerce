@@ -52,8 +52,7 @@
 
 .checkout-item .product-name {
   font-weight: 300;
-  color: var(--light-black);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 0.25rem;
   display: block;
   transform: translateY(-0.5em);
