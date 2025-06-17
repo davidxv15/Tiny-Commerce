@@ -104,7 +104,7 @@
   font-size: 1.3rem;
   color: var(--light-gray);
   border: .5px solid var(--mint);
-  border-bottom: 2px solid var(--mint);
+  border-bottom: 1.6px solid var(--mint);
   border-radius: 8px;
   background: transparent;
   font-family: var(--font-primary);
