@@ -90,7 +90,7 @@
 }
 
 #checkout-form label {
-  font-weight: 400; /* style this */
+  font-weight: 600;
   font-size: 1.5em;
   margin-bottom: -1.5rem;
   color: var(--light-black);
