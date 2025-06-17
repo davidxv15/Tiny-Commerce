@@ -103,7 +103,7 @@
   padding: .5rem;
   font-size: 1.3rem;
   color: var(--light-gray);
-  border: .5px solid gray;
+  border: .5px solid var(--mint);
   border-bottom: 2px solid var(--mint);
   background: transparent;
   font-family: var(--font-primary);
