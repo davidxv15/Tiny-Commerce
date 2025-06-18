@@ -119,6 +119,7 @@
 
 input::placeholder, textarea::placeholder {
   color: var(--mint);
+  opacity: .15;
 }
 
 /* Submit Button */
