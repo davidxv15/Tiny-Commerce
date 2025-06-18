@@ -118,7 +118,7 @@
 }
 
 input::placeholder, textarea::placeholder {
-  color: black;
+  color: var(--mint);
 }
 
 /* Submit Button */
