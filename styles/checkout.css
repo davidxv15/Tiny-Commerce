@@ -82,7 +82,7 @@
   font-size: 1.8rem;
   display: flex;
   align-items: flex-end;
-  transform: translateX(160px);
+  transform: translateX(10rem);
   font-weight: 500;
   color: var(--light-black);
 }
