@@ -55,11 +55,11 @@
   font-size: 1.8rem;
   margin-bottom: 0.25rem;
   display: block;
-  transform: translateY(-0.5em);
+  transition: transform 0.1s ease;
 }
 
 .product-name:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .product-name:visited {
