@@ -50,8 +50,8 @@
   border-bottom: 1px dashed var(--medium-gray);
 }
 
-.checkout-item .product-img {
-  width: 5rem;
+.product-img {
+  width: 8rem;
 }
 
 .checkout-item .product-name {
