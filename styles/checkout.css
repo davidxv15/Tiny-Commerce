@@ -117,7 +117,7 @@
   outline: none;
 }
 
-input::placeholder {
+input::placeholder, textarea::placeholder {
   color: black;
 }
 
