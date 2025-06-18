@@ -50,6 +50,10 @@
   border-bottom: 1px dashed var(--medium-gray);
 }
 
+.checkout-item .product-img {
+  width: 5rem;
+}
+
 .checkout-item .product-name {
   font-weight: 500;
   font-size: 1.8rem;
