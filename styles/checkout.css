@@ -94,6 +94,7 @@
 /* === FORM COLUMN === */
 #checkout-form {
   flex: 1;
+  padding-top: 1rem;
   min-width: 320px;
   max-width: 450px;
   display: flex;
