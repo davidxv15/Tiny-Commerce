@@ -131,6 +131,7 @@
 
 .cart-controls {
   color: var(--mint);
+  transform: translateX(1rem);
 }
 
 .empty-cart-msg {
