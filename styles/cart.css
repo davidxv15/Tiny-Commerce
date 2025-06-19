@@ -126,7 +126,11 @@
   text-align: right;
   font-size: 1.8rem;
   padding-left: 8rem;
-  color: var(--soft-gray);
+  color: red;
+}
+
+.cart-controls {
+  color: var(--mint);
 }
 
 .empty-cart-msg {
