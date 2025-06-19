@@ -100,7 +100,7 @@
   color: var(--mint);
   font-weight: bold;
   font-size: 2.5rem;
-  margin: 0 0.5rem;
+  margin: 0 0 0 2rem;
 }
 
 .remove-btn {
