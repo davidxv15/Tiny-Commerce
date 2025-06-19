@@ -74,7 +74,7 @@ fetch("./data/products.json")
     
       // Subtotal
       const subtotal = document.createElement('p');
-      subtotal.innerHTML = `<strong>Subtotal: $${itemTotal.toFixed(2)}</strong>`;
+      subtotal.innerHTML = `Subtotal: $${itemTotal.toFixed(2)}`;
     
       const divider = document.createElement('hr');
     
