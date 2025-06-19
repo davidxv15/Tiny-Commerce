@@ -131,6 +131,7 @@
 }
 
 .cart-controls {
+  font-weight: 100;
   color: var(--light);
   transform: translateX(1rem);
 }
