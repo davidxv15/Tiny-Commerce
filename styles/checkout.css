@@ -52,6 +52,7 @@
 
 .product-img {
   width: 8rem;
+  border-radius: var(--radius)
 }
 
 .checkout-item .product-name {
