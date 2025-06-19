@@ -40,6 +40,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  transform: translateY(-1.5rem);
 }
 /* product entry */
 .checkout-item {
