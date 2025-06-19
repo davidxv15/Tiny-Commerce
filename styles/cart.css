@@ -131,7 +131,7 @@
 }
 
 .cart-controls {
-  color: var(--mint);
+  color: var(--light);
   transform: translateX(1rem);
 }
 
