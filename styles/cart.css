@@ -47,7 +47,7 @@
 .products-in-cart {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
   padding: 4rem;
 }
 
