@@ -72,6 +72,7 @@
 .cart-item h3 {
   font-size: 2rem;
   color: var(--mint);
+  margin-left: -3rem;
 }
 
 .cart-item p {
@@ -87,7 +88,7 @@
   background: none;
   border: none;
   color: var(--soft-gray);
-  transform: translateY(-0.3rem);
+  /* transform: translateY(-0.3rem); */
 }
 
 .qty-btn:hover {
