@@ -31,6 +31,10 @@
   --glow: 0 0 16px var(--green);
 }
 
+.horizontal-line {
+  width: 20%;
+}
+
 .cart-view h1 {
   font-size: 2.7rem;
   margin: 1rem 0 1rem;
