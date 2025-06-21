@@ -42,7 +42,7 @@
   margin: 1rem 0 1rem;
   padding: 2rem;
   text-align: center;
-  color: var(--light);
+  color: var(--soft-gray);
   transition: transform 0.2s ease;
 }
 
