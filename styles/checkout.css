@@ -10,6 +10,7 @@
 }
 
 .checkout-view h1 {
+  font-family: var(--font-primary);
   text-align: center;
   font-size: 3rem;
   color: var(--light-gray);
