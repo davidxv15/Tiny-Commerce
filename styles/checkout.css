@@ -17,6 +17,12 @@
   transition: transform 0.1s ease;
 }
 
+.horizontal-line {
+  width: 25%;
+  margin: auto;
+  margin-top: -2rem;
+}
+
 .checkout-view h1:hover {
   transform: scale(1.1);
 }
