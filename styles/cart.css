@@ -146,9 +146,30 @@
   transform: translateX(1rem);
 }
 
+.go-checkout-btn {
+  margin: 2rem auto 0 auto;
+  display: block;
+  padding: 1rem 2.5rem;
+  background: var(--green);
+  color: var(--light);
+  font-size: 1.3rem;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.go-checkout-btn:hover {
+  background: var(--mintLeaf);
+  color: var(--primary);
+  transform: scale(1.07);
+}
+
 .empty-cart-msg {
   text-align: center;
   font-size: 1.2rem;
   color: var(--medium-gray);
   margin-top: 6rem;
 }
+
