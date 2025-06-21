@@ -105,13 +105,25 @@ productEl.appendChild(infoCol);
 productEl.appendChild(controlCol);
 cartContainer.appendChild(productEl);
 
-      
+  // total after tax
     });
     const totalEl = document.createElement('div');
 totalEl.className = 'cart-total';
 totalEl.innerHTML = `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
 cartContainer.appendChild(totalEl);
     
+    // checkout button
+const checkoutBtnContainer = document.getElementById('cart-checkout-btn-container');
+checkoutBtnContainer.innerHTML = ''; // Clear previous (in case of reload)
+const checkoutBtn = document.createElement('button');
+checkoutBtn.textContent = 'Go to Checkout';
+checkoutBtn.className = 'go-checkout-btn';
+checkoutBtn.onclick = () => {
+  window.location.href = 'checkout.html';
+};
+checkoutBtnContainer.appendChild(checkoutBtn);
+
+
   })
   .catch((err) => {
     console.error("Error loading cart:", err);
