@@ -18,14 +18,14 @@ fetch('./data/products.json')
     document.getElementById("product-image").alt = product.name;
     document.getElementById("product-price").textContent = `$${product.price.toFixed(2)}`;
 
-    // ✅ Dynamically insert the button
+    //  Dynamically insert the button
     const btn = document.createElement("button");
     btn.className = "add-to-cart";
     btn.dataset.id = product.id;
     btn.textContent = "+";
     document.querySelector(".product-detail").appendChild(btn);
 
-    // ✅ Attach event listener right after creating the button
+    //  Attach event listener right after creating the button
     btn.addEventListener("click", () => {
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       const existingItem = cart.find(item => item.id === product.id);
@@ -37,7 +37,7 @@ fetch('./data/products.json')
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
-      alert("✅ Added to cart!");
+      alert("Added to cart!");
     });
   })
   .catch(err => {
