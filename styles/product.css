@@ -93,8 +93,8 @@
   
   .toast {
     position: fixed;
-    top: 10rem;
-    right: 2rem;
+    top: 5rem;
+    right: 5rem;
     background-color: var(--green);
     color: var(--light);
     padding: 1rem 1.5rem;
