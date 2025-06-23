@@ -37,7 +37,7 @@ fetch('./data/products.json')
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
-      showToast("✅ Added to cart!");
+      showToast("✅ Added to cart");
     });
 
     function showToast(message = "Added to cart ✅") {
@@ -49,7 +49,7 @@ fetch('./data/products.json')
       setTimeout(() => {
         toast.classList.remove("show");
         toast.classList.add("hidden");
-      }, 2000); // Disappear after 2 seconds
+      }, 3000); // Disappear after 2 seconds
     }
 
   })
