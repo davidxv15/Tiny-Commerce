@@ -139,7 +139,7 @@
 
 input::placeholder, textarea::placeholder {
   color: var(--mint);
-  opacity: .15;
+  opacity: .25;
 }
 
 /* Submit Button */
