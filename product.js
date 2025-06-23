@@ -37,7 +37,7 @@ fetch('./data/products.json')
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
-      alert("Added to cart!");
+      showToast("✅ Added to cart!");
     });
 
     function showToast(message = "Added to cart ✅") {
