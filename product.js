@@ -39,6 +39,19 @@ fetch('./data/products.json')
       localStorage.setItem("cart", JSON.stringify(cart));
       alert("Added to cart!");
     });
+
+    function showToast(message = "Added to cart ✅") {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("show");
+      toast.classList.remove("hidden");
+    
+      setTimeout(() => {
+        toast.classList.remove("show");
+        toast.classList.add("hidden");
+      }, 2000); // Disappear after 2 seconds
+    }
+
   })
   .catch(err => {
     console.error("Failed to load product details:", err);
