@@ -399,7 +399,7 @@ header p {
 .toast {
   position: fixed;
   top: 5rem;
-  right: 40rem;
+  right: 5rem;
   background-color: var(--green);
   color: var(--light);
   padding: 1rem 1.5rem;
