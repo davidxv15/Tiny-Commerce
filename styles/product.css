@@ -91,3 +91,29 @@
     transform: scale(1.05);
   }
   
+  .toast {
+    position: fixed;
+    top: 10rem;
+    right: 40rem;
+    background-color: var(--green);
+    color: var(--light);
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius);
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 0 10px var(--mint);
+  }
+  
+  .toast.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .toast.hidden {
+    pointer-events: none;
+  }
+  
