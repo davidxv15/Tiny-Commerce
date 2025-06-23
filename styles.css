@@ -398,7 +398,7 @@ header p {
 
 .toast {
   position: fixed;
-  top: 10rem;
+  top: 5rem;
   right: 40rem;
   background-color: var(--green);
   color: var(--light);
