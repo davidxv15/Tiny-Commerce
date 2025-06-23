@@ -41,7 +41,7 @@
   .add-to-cart {
     width: 12rem;
     height: 3rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
 
   .modal {
