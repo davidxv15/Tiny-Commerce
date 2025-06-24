@@ -74,10 +74,10 @@
   border-radius: var(--radius);
   margin-left: 8rem;
   border: .5px solid var(--medium-gray);
+  transition: transform 0.1s ease;
 }
 
 .cart-item img:hover {
-  
 }
 
 .cart-item h3 {
