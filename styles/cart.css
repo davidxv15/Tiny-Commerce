@@ -73,7 +73,7 @@
   width: 8em;
   border-radius: var(--radius);
   margin-left: 8rem;
-  /* border: 1px solid var(--green); */
+  border: 1px solid var(--medium-gray);
 }
 
 .cart-item h3 {
