@@ -65,6 +65,10 @@
   border: 1px solid var(--medium-gray);
 }
 
+.product-img:hover {
+  
+}
+
 .checkout-item .product-name {
   font-weight: 500;
   font-size: 1.8rem;
