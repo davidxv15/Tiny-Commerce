@@ -61,7 +61,8 @@
 
 .product-img {
   width: 8rem;
-  border-radius: var(--radius)
+  border-radius: var(--radius);
+  border: 1px solid var(--medium-gray);
 }
 
 .checkout-item .product-name {
