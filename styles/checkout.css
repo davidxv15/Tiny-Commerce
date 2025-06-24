@@ -14,7 +14,6 @@
   text-align: center;
   font-size: 3rem;
   color: var(--light-gray);
-  margin-bottom: 1rem;
   transition: transform 0.1s ease;
 }
 
