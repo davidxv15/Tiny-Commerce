@@ -76,6 +76,10 @@
   border: .5px solid var(--medium-gray);
 }
 
+.cart-item img:hover {
+  
+}
+
 .cart-item h3 {
   font-size: 2rem;
   color: var(--mint);
