@@ -231,7 +231,7 @@ header p {
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid var(--pink);
-  transition: transform 0.13s ease;
+  transition: transform 0.13s ease-in-out;
 }
 
 .product-card:hover img {
