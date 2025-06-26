@@ -155,6 +155,10 @@
   transform: translateX(1rem);
 }
 
+.cart-controls p {
+  font-size: 1.3rem;
+}
+
 .go-checkout-btn {
   font-family: var(--font-primary);
   margin: 2rem auto 0 auto;
