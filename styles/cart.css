@@ -132,11 +132,13 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transform: translateX(2rem);
+  transition: transform 0.3s ease-in-out;
+  /* transform: translateX(2rem); */
 }
 
 .remove-btn:hover {
   background: var(--danger);
+  transform: scale(1.1);
 }
 
 .cart-total {
