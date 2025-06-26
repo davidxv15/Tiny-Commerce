@@ -157,6 +157,7 @@
 
 .cart-controls p {
   font-size: 1.3rem;
+  color: var(--medium-gray);
 }
 
 .go-checkout-btn {
