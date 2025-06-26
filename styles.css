@@ -230,8 +230,8 @@ header p {
   height: auto;
   object-fit: cover;
   border-radius: 8px;
-  border: 1px solid var(--green);
-  transition: transform 0.2s ease;
+  border: 1px solid var(--pink);
+  transition: transform 0.13s ease;
 }
 
 .product-card:hover img {
