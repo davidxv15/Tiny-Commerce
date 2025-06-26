@@ -136,7 +136,7 @@
 }
 
 .remove-btn:hover {
-  background: var(--warning);
+  background: var(--danger);
 }
 
 .cart-total {
