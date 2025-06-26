@@ -44,7 +44,7 @@
   padding: 2rem;
   text-align: center;
   color: var(--soft-gray);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease-in-out;
 }
 
 .cart-view h1:hover {
