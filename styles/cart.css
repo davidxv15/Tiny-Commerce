@@ -149,6 +149,7 @@
 }
 
 .cart-controls {
+  font-family: var(--primary);
   font-weight: 300;
   color: var(--light);
   transform: translateX(1rem);
