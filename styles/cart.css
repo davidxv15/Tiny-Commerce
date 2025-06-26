@@ -120,7 +120,7 @@
 }
 
 .remove-btn {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   width: fit-content;
   position: center;
   align-self: center;
