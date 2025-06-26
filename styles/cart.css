@@ -125,6 +125,7 @@
   position: center;
   align-self: center;
   margin-top: 0.5rem;
+  margin-left: 3rem;
   padding: 0.5rem 1rem;
   background: var(--danger);
   color: white;
