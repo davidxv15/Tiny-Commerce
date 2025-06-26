@@ -230,7 +230,7 @@ header p {
   height: auto;
   object-fit: cover;
   border-radius: 8px;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--mintLeaf);
   transition: transform 0.13s ease-in-out;
 }
 
