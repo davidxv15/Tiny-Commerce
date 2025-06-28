@@ -201,6 +201,13 @@
       "description": "My dog can use them.",
       "price": 26.95,
       "image": "https://picsum.photos/300/200?random=29"
+    },
+    {
+      "id": 30,
+      "name": "Dog chop sticks",
+      "description": "My dog can use them.",
+      "price": 26.95,
+      "image": "https://picsum.photos/300/200?random=30"
     }
   ]
   
