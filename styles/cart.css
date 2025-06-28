@@ -161,6 +161,7 @@
   color: var(--light);
   padding-left: 4rem;
   padding-bottom: 1.5rem;
+  transform: translateY(-1.3rem)
 }
 
 .go-checkout-btn {
