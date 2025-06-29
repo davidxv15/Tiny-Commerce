@@ -1,283 +1,282 @@
 [
-    {
-      "id": 1,
-      "name": "Hiking Vest",
-      "description": "Pet backpack for Cats and Dogs.",
-      "price": 19.99,
-      "image": "https://picsum.photos/300/200?random=1"
-    },
-    {
-      "id": 2,
-      "name": "Rain Boots",
-      "description": "Paw protection for pets.",
-      "price": 14.49,
-      "image": "https://picsum.photos/300/200?random=2"
-    },
-    {
-      "id": 3,
-      "name": "Tiny Top Hat",
-      "description": "Because your cat deserves class.",
-      "price": 18.95,
-      "image": "https://picsum.photos/300/200?random=3"
-    },
-    {
-      "id": 4,
-      "name": "Pant (for pets)",
-      "description": "Because your cat deserves class.",
-      "price": 12.95,
-      "image": "https://picsum.photos/300/200?random=4"
-    },
-    {
-      "id": 5,
-      "name": "Shoe",
-      "description": "Because your cat deserves class.",
-      "price": 28.95,
-      "image": "https://picsum.photos/300/200?random=5"
-    },
-    {
-      "id": 6,
-      "name": "Shawl",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=6"
-    },
-    {
-      "id": 7,
-      "name": "Tie",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=7"
-    },
-    {
-      "id": 8,
-      "name": "Blanket",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=8"
-    },
-    {
-      "id": 9,
-      "name": "Bolo Tie",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=9"
-    },
-    {
-      "id": 10,
-      "name": "Unlucky Chew Toy",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=10"
-    },
-    {
-      "id": 11,
-      "name": "Shoes",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=11"
-    },
-    {
-      "id": 12,
-      "name": "Dog dozen",
-      "description": "Because your cat deserves it",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=12"
-    },
-    {
-      "id": 13,
-      "name": "Lucky chew toy",
-      "description": "Because your cat deserves it",
-      "price": 13.95,
-      "image": "https://picsum.photos/300/200?random=13"
-    },
-    {
-      "id": 14,
-      "name": "Snow Shoes",
-      "description": "Because your cat deserves it",
-      "price": 14.95,
-      "image": "https://picsum.photos/300/200?random=14"
-    },
-    {
-      "id": 15,
-      "name": "Dog pen",
-      "description": "Teach your dog to write.",
-      "price": 15.95,
-      "image": "https://picsum.photos/300/200?random=15"
-    },
-    {
-      "id": 16,
-      "name": "Pet Candles",
-      "description": "Bday candles",
-      "price": 16.95,
-      "image": "https://picsum.photos/300/200?random=16"
-    },
-    {
-      "id": 17,
-      "name": "Again treats",
-      "description": "Treat yo self",
-      "price": 17.95,
-      "image": "https://picsum.photos/300/200?random=17"
-    },
-    {
-      "id": 18,
-      "name": "Snow Boots",
-      "description": "Treat yo self",
-      "price": 18.95,
-      "image": "https://picsum.photos/300/200?random=18"
-    },
-    {
-      "id": 19,
-      "name": "Gardening Hat",
-      "description": "Treat yo self",
-      "price": 19.95,
-      "image": "https://picsum.photos/300/200?random=19"
-    },
-    {
-      "id": 20,
-      "name": "Bandana",
-      "description": "Treat yo self",
-      "price": 20.95,
-      "image": "https://picsum.photos/300/200?random=20"
-    },
-    {
-      "id": 21,
-      "name": "Throwing Stick",
-      "description": "Treat yo self",
-      "price": 21.95,
-      "image": "https://picsum.photos/300/200?random=21"
-    },
-    {
-      "id": 22,
-      "name": "Fetching Stick",
-      "description": "Treat yo self",
-      "price": 22.95,
-      "image": "https://picsum.photos/300/200?random=22"
-    },
-    {
-      "id": 23,
-      "name": "Headphones",
-      "description": "Treat yo self",
-      "price": 23.95,
-      "image": "https://picsum.photos/300/200?random=23"
-    },
-    {
-      "id": 24,
-      "name": "Goggles",
-      "description": "Treat yo self",
-      "price": 24.95,
-      "image": "https://picsum.photos/300/200?random=24"
-    },
-    {
-      "id": 25,
-      "name": "Camping Vest",
-      "description": "Treat yo self",
-      "price": 25.95,
-      "image": "https://picsum.photos/300/200?random=25"
-    },
-    {
-      "id": 26,
-      "name": "Life Vest",
-      "description": "Treat yo self",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=26"
-    },
-    {
-      "id": 27,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=27"
-    },
-    {
-      "id": 28,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=28"
-    },
-    {
-      "id": 29,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=29"
-    },
-    {
-      "id": 30,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=30"
-    },
-    {
-      "id": 31,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=31"
-    },
-    {
-      "id": 32,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=32"
-    },
-    {
-      "id": 33,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=33"
-    },
-    {
-      "id": 34,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=34"
-    },
-    {
-      "id": 35,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=35"
-    },
-    {
-      "id": 36,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=36"
-    },
-    {
-      "id": 37,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=37"
-    },
-    {
-      "id": 38,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=38"
-    },
-    {
-      "id": 39,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=39"
-    },
-    {
-      "id": 40,
-      "name": "Dog chop sticks",
-      "description": "My dog can use them.",
-      "price": 26.95,
-      "image": "https://picsum.photos/300/200?random=40"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Hiking Vest",
+    "description": "Pet backpack for Cats and Dogs.",
+    "price": 19.99,
+    "image": "https://picsum.photos/300/200?random=1"
+  },
+  {
+    "id": 2,
+    "name": "Rain Boots",
+    "description": "Paw protection for pets.",
+    "price": 14.49,
+    "image": "https://picsum.photos/300/200?random=2"
+  },
+  {
+    "id": 3,
+    "name": "Tiny Top Hat",
+    "description": "Because your cat deserves class.",
+    "price": 18.95,
+    "image": "https://picsum.photos/300/200?random=3"
+  },
+  {
+    "id": 4,
+    "name": "Pant (for pets)",
+    "description": "Because your cat deserves class.",
+    "price": 12.95,
+    "image": "https://picsum.photos/300/200?random=4"
+  },
+  {
+    "id": 5,
+    "name": "Shoe",
+    "description": "Because your cat deserves class.",
+    "price": 28.95,
+    "image": "https://picsum.photos/300/200?random=5"
+  },
+  {
+    "id": 6,
+    "name": "Shawl",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=6"
+  },
+  {
+    "id": 7,
+    "name": "Tie",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=7"
+  },
+  {
+    "id": 8,
+    "name": "Blanket",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=8"
+  },
+  {
+    "id": 9,
+    "name": "Bolo Tie",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=9"
+  },
+  {
+    "id": 10,
+    "name": "Unlucky Chew Toy",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=10"
+  },
+  {
+    "id": 11,
+    "name": "Shoes",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=11"
+  },
+  {
+    "id": 12,
+    "name": "Dog dozen",
+    "description": "Because your cat deserves it",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=12"
+  },
+  {
+    "id": 13,
+    "name": "Lucky chew toy",
+    "description": "Because your cat deserves it",
+    "price": 13.95,
+    "image": "https://picsum.photos/300/200?random=13"
+  },
+  {
+    "id": 14,
+    "name": "Snow Shoes",
+    "description": "Because your cat deserves it",
+    "price": 14.95,
+    "image": "https://picsum.photos/300/200?random=14"
+  },
+  {
+    "id": 15,
+    "name": "Dog pen",
+    "description": "Teach your dog to write.",
+    "price": 15.95,
+    "image": "https://picsum.photos/300/200?random=15"
+  },
+  {
+    "id": 16,
+    "name": "Pet Candles",
+    "description": "Bday candles",
+    "price": 16.95,
+    "image": "https://picsum.photos/300/200?random=16"
+  },
+  {
+    "id": 17,
+    "name": "Again treats",
+    "description": "Treat yo self",
+    "price": 17.95,
+    "image": "https://picsum.photos/300/200?random=17"
+  },
+  {
+    "id": 18,
+    "name": "Snow Boots",
+    "description": "Treat yo self",
+    "price": 18.95,
+    "image": "https://picsum.photos/300/200?random=18"
+  },
+  {
+    "id": 19,
+    "name": "Gardening Hat",
+    "description": "Treat yo self",
+    "price": 19.95,
+    "image": "https://picsum.photos/300/200?random=19"
+  },
+  {
+    "id": 20,
+    "name": "Bandana",
+    "description": "Treat yo self",
+    "price": 20.95,
+    "image": "https://picsum.photos/300/200?random=20"
+  },
+  {
+    "id": 21,
+    "name": "Throwing Stick",
+    "description": "Treat yo self",
+    "price": 21.95,
+    "image": "https://picsum.photos/300/200?random=21"
+  },
+  {
+    "id": 22,
+    "name": "Fetching Stick",
+    "description": "Treat yo self",
+    "price": 22.95,
+    "image": "https://picsum.photos/300/200?random=22"
+  },
+  {
+    "id": 23,
+    "name": "Headphones",
+    "description": "Treat yo self",
+    "price": 23.95,
+    "image": "https://picsum.photos/300/200?random=23"
+  },
+  {
+    "id": 24,
+    "name": "Goggles",
+    "description": "Treat yo self",
+    "price": 24.95,
+    "image": "https://picsum.photos/300/200?random=24"
+  },
+  {
+    "id": 25,
+    "name": "Camping Vest",
+    "description": "Treat yo self",
+    "price": 25.95,
+    "image": "https://picsum.photos/300/200?random=25"
+  },
+  {
+    "id": 26,
+    "name": "Life Vest",
+    "description": "Treat yo self",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=26"
+  },
+  {
+    "id": 27,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=27"
+  },
+  {
+    "id": 28,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=28"
+  },
+  {
+    "id": 29,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=29"
+  },
+  {
+    "id": 30,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=30"
+  },
+  {
+    "id": 31,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=31"
+  },
+  {
+    "id": 32,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=32"
+  },
+  {
+    "id": 33,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=33"
+  },
+  {
+    "id": 34,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=34"
+  },
+  {
+    "id": 35,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=35"
+  },
+  {
+    "id": 36,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=36"
+  },
+  {
+    "id": 37,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=37"
+  },
+  {
+    "id": 38,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=38"
+  },
+  {
+    "id": 39,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=39"
+  },
+  {
+    "id": 40,
+    "name": "Dog chop sticks",
+    "description": "My dog can use them.",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=40"
+  }
+]
