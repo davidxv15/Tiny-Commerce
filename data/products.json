@@ -404,5 +404,12 @@
     "description": "For a cat scratch or three",
     "price": 26.95,
     "image": "https://picsum.photos/300/200?random=58"
+  },
+  {
+    "id": 59,
+    "name": "Cat scratch post",
+    "description": "For a cat scratch or three",
+    "price": 26.95,
+    "image": "https://picsum.photos/300/200?random=59"
   }
 ]
