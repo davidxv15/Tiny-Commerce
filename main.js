@@ -121,12 +121,7 @@ function setupPagination(products) {
 
     // Next Button
     const nextBtn = createButton("Next", currentPage === totalPages, () => {
-      if (currentPage < totalPages) {
-        currentPage++;
-        displayPage(products);
-        setupPagination(products);
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
+      if (currentPage < totalPages) setCurrentPage(currentPage + 1, products);
     });
 
     // Last Button
