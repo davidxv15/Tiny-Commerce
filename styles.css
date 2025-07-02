@@ -332,7 +332,7 @@ header p {
 .pagination button:last-child {
   background-color: none;
   color: var(--light);
-  font-weight: bold;
+  font-weight: 200;
   border: none;
 }
 
