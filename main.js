@@ -94,7 +94,7 @@ function setupPagination(products) {
 
   function addPagination(paginationBar, products) {
     // First Button
-    const firstBtn = createButton("◀︎◁", currentPage === 1, () => {
+    const firstBtn = createButton("◀︎◁First", currentPage === 1, () => {
       if (currentPage !== 1) {
         currentPage = 1;
         displayPage(products);
