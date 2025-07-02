@@ -44,7 +44,7 @@
   {
     "id": 7,
     "name": "Tie",
-    "description": "Because your cat deserves it",
+    "description": "Tie breaker.",
     "price": 15.95,
     "image": "https://picsum.photos/300/200?random=7"
   },
