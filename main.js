@@ -114,13 +114,9 @@ function setupPagination(products) {
 
     // Previous Button
     const prevBtn = createButton("Previous", currentPage === 1, () => {
-      if (currentPage > 1) {
-        currentPage--;
-        displayPage(products);
-        setupPagination(products);
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
+      if (currentPage > 1) setCurrentPage(currentPage - 1, products);
     });
+    
 
     // Page Info
     const pageInfo = document.createElement("span");
