@@ -131,12 +131,7 @@ function setupPagination(products) {
 
     // Last Button
     const lastBtn = createButton("Last▷▶︎", currentPage === totalPages, () => {
-      if (currentPage !== totalPages) {
-        currentPage = totalPages;
-        displayPage(products);
-        setupPagination(products);
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
+      if (currentPage < totalPages) setCurrentPage(currentPage + 1, products);
     });
 
     // Append buttons: First, Prev, Info, Next, Last
