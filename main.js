@@ -75,6 +75,15 @@ function setupSearch() {
   });
 }
 
+function setCurrentPage(num, products) {
+  currentPage = num;
+  localStorage.setItem('productCurrentPage', num);
+  displayPage(products);
+  setupPagination(products);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+
 // Pagination logic with First/Last
 function setupPagination(products) {
   const paginationTop = document.getElementById("pagination-top");
