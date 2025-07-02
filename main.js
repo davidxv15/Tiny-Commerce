@@ -130,7 +130,7 @@ function setupPagination(products) {
     });
 
     // Last Button
-    const lastBtn = createButton("▷▶︎", currentPage === totalPages, () => {
+    const lastBtn = createButton("Last▷▶︎", currentPage === totalPages, () => {
       if (currentPage !== totalPages) {
         currentPage = totalPages;
         displayPage(products);
