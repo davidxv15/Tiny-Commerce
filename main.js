@@ -145,10 +145,17 @@ function setupPagination(products) {
 fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
-    // 1. Grab admin-added products from localStorage
+    //  Will grab admin-added products from localStorage
     const localProducts = JSON.parse(localStorage.getItem('productDB')) || [];
-    // 2. Merge arrays
+    //  Merge arrays
     allProducts = products.concat(localProducts);
+
+    const savedPage = parseInt(localStorage.getItem('productCurrentPage'));
+if (!isNaN(savedPage) && savedPage > 0) {
+  currentPage = savedPage;
+}
+
+
     displayPage(allProducts);        
     setupPagination(allProducts);     
     setupSearch();                   
