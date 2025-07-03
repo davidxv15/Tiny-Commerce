@@ -69,7 +69,8 @@ function setupSearch() {
       p.description.toLowerCase().includes(keyword)
     );
 
-    currentPage = 1; // Reset pagination 
+    currentPage = 1; // RESET pagination 
+    localStorage.setItem('productCurrentPage', 1);
     displayPage(filtered);
     setupPagination(filtered);
   });
