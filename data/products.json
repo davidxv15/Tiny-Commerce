@@ -143,21 +143,21 @@
     "id": 21,
     "name": "Throwing Stick",
     "description": "For fun and games.",
-    "price": 21.95,
+    "price": 21.99,
     "image": "https://picsum.photos/300/200?random=21"
   },
   {
     "id": 22,
     "name": "Fetching Stick",
-    "description": "Treat yo self",
-    "price": 22.95,
+    "description": "Play fetch.",
+    "price": 22.99,
     "image": "https://picsum.photos/300/200?random=22"
   },
   {
     "id": 23,
     "name": "Headphones",
     "description": "Treat yo self",
-    "price": 23.95,
+    "price": 23.99,
     "image": "https://picsum.photos/300/200?random=23"
   },
   {
