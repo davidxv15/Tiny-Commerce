@@ -163,15 +163,15 @@
   {
     "id": 24,
     "name": "Goggles",
-    "description": "Treat yo self",
-    "price": 24.95,
+    "description": "Speed protection.",
+    "price": 24.99,
     "image": "https://picsum.photos/300/200?random=24"
   },
   {
     "id": 25,
     "name": "Camping Vest",
     "description": "Treat yo self",
-    "price": 25.95,
+    "price": 25.99,
     "image": "https://picsum.photos/300/200?random=25"
   },
   {
