@@ -170,7 +170,7 @@
   {
     "id": 25,
     "name": "Camping Vest",
-    "description": "Treat yo self",
+    "description": "Store essentials.",
     "price": 25.99,
     "image": "https://picsum.photos/300/200?random=25"
   },
@@ -178,7 +178,7 @@
     "id": 26,
     "name": "Life Vest",
     "description": "Treat yo self",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=26"
   },
   {
