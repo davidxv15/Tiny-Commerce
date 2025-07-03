@@ -114,14 +114,14 @@
   {
     "id": 17,
     "name": "Again treats",
-    "description": "Treat yo self",
+    "description": "Treat yo self.",
     "price": 17.95,
     "image": "https://picsum.photos/300/200?random=17"
   },
   {
     "id": 18,
     "name": "Snow Boots",
-    "description": "Treat yo self",
+    "description": "Winter essential.",
     "price": 18.95,
     "image": "https://picsum.photos/300/200?random=18"
   },
