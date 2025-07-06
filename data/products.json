@@ -296,7 +296,7 @@
   {
     "id": 43,
     "name": "Medium pet hammock",
-    "description": "For pets up to 40 pounds.",
+    "description": "For pets up to 100 pounds.",
     "price": 26.95,
     "image": "https://picsum.photos/300/200?random=43"
   },
