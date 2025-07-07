@@ -269,56 +269,56 @@
     "id": 39,
     "name": "Small surfboard",
     "description": "For cats and small dogs.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=39"
   },
   {
     "id": 40,
     "name": "Medium surfboard",
     "description": "For cats and mid-sized dogs.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=40"
   },
   {
     "id": 41,
     "name": "Large surfboard",
     "description": "For large dogs and other pets.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=41"
   },
   {
     "id": 42,
     "name": "Small pet hammock",
     "description": "For pets 20lbs. or less.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=42"
   },
   {
     "id": 43,
     "name": "Medium pet hammock",
     "description": "For pets up to 100 pounds.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=43"
   },
   {
     "id": 44,
     "name": "Large pet hammock",
     "description": "Can support pets up to 200 pounds.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=44"
   },
   {
     "id": 45,
     "name": "Button up Dog shirt",
     "description": "Smile in style.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=45"
   },
   {
     "id": 46,
     "name": "Pet trampoline",
     "description": "Functional training.",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=46"
   },
   {
