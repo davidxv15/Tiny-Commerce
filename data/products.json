@@ -365,9 +365,9 @@
   },
   {
     "id": 53,
-    "name": "Cat scratch post",
-    "description": "For a cat scratch or three",
-    "price": 26.99,
+    "name": "Cat vest",
+    "description": "A vest of cats for cats.",
+    "price": 24.99,
     "image": "https://picsum.photos/300/200?random=53"
   },
   {
