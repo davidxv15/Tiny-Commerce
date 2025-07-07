@@ -358,16 +358,16 @@
   },
   {
     "id": 52,
-    "name": "Cat scratch post",
-    "description": "For a cat scratch or three",
-    "price": 26.95,
+    "name": "Burrito suit",
+    "description": "Festive festoon.",
+    "price": 29.99,
     "image": "https://picsum.photos/300/200?random=52"
   },
   {
     "id": 53,
     "name": "Cat scratch post",
     "description": "For a cat scratch or three",
-    "price": 26.95,
+    "price": 26.99,
     "image": "https://picsum.photos/300/200?random=53"
   },
   {
