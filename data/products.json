@@ -372,7 +372,7 @@
   },
   {
     "id": 54,
-    "name": "Pet bowl combo",
+    "name": "Pet Bowl Combo",
     "description": "Eat and drink.",
     "price": 24.99,
     "image": "https://picsum.photos/300/200?random=54"
@@ -381,7 +381,7 @@
     "id": 55,
     "name": "Small Pet Bed",
     "description": "24' X 12'.",
-    "price": 26.95,
+    "price": 34.99,
     "image": "https://picsum.photos/300/200?random=55"
   },
   {
