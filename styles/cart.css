@@ -109,6 +109,9 @@
 .qty-btn:hover {
   background-color: var(--mint);
   color: var(--primary);
+  transition: 
+    background-color 0.4s ease-in-out, 
+    color 0.4s ease-in-out; 
   border-radius: var(--radius);
 }
 
