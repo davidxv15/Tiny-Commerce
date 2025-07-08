@@ -122,6 +122,10 @@
   margin: 0 0 0 2rem;
 }
 
+.qty:hover {
+  box-shadow: 0 0 12px var(--mint);
+}
+
 .remove-btn {
   font-family: var(--font-primary);
   width: fit-content;
