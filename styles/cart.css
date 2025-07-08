@@ -125,6 +125,7 @@
 .qty:hover {
   border-radius: 40%;
   box-shadow: 0 0 24px var(--mintLeaf);
+  cursor: pointer;
 }
 
 .remove-btn {
