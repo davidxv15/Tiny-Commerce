@@ -123,7 +123,8 @@
 }
 
 .qty:hover {
-  box-shadow: 0 0 12px var(--mint);
+  border-radius: 40%;
+  box-shadow: 0 0 24px var(--mint);
 }
 
 .remove-btn {
