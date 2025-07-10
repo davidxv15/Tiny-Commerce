@@ -137,7 +137,7 @@
   margin-left: 3.4rem;
   padding: 0.3rem .8rem;
   background: var(--danger);
-  color: white;
+  color: var(--light);
   border: .5 solid black;
   border-radius: 22px;
   cursor: pointer;
