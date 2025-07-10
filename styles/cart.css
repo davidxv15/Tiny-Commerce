@@ -143,6 +143,10 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   opacity: .8;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.16), 1px 1px 0px #fff;
+  transition: 
+    box-shadow 0.25s cubic-bezier(.6,.1,.25,1.2),
+    transform 0.2s cubic-bezier(.6,.1,.25,1.2);
 }
 
 .remove-btn:hover {
