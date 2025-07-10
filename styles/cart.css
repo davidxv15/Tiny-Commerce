@@ -138,7 +138,7 @@
   padding: 0.3rem .8rem;
   background: var(--danger);
   color: var(--light);
-  border: .5 solid black;
+  border: 1px solid var(--light);
   border-radius: 22px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
