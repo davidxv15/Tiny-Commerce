@@ -135,7 +135,7 @@
   margin-left: 3.2rem;
   padding: 0.3rem 0.8rem;
   background: var(--green);
-  color: var(--primary);
+  color: var(--light);
   border: 1px solid var(--light);
   border-radius: 22px;
   cursor: pointer;
