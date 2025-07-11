@@ -148,6 +148,7 @@
 
 .remove-btn:hover {
   background: var(--danger);
+  color: white;
   /* transform: scale(1.3); */
   box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.27),
     inset -2px -2px 8px rgba(255, 255, 255, 0.07);
