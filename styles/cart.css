@@ -188,7 +188,7 @@
   padding: 1rem 1.5rem;
   margin-top: -6rem;
   background: var(--mint);
-  color: var(--light);
+  color: rgb(146, 146, 146);
   font-size: 1.3rem;
   border: none;
   border-radius: var(--radius);
