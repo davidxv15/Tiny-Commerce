@@ -62,7 +62,8 @@
 .cart-item {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  text-align: left;
   justify-content: space-between;
   gap: 1.5rem;
   padding: 1rem 0;
