@@ -298,7 +298,7 @@ header p {
   /* PAGE BUTTONS */
 
 .pagination {
-  color: var(--light);
+  color: var(--cool-gray);
   display: flex;
   justify-content: center;
   align-items: center;
