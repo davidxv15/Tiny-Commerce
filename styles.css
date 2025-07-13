@@ -313,7 +313,7 @@ header p {
   font-family: var(--font-primary);
   font-size: 1.5em;
   font-weight: 500;
-  color: var(--light);
+  color: var(--cool-gray);
   background-color: var(--primary);
   border: 1px solid var(--primary);
   border-radius: var(--radius);
