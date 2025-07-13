@@ -332,7 +332,7 @@ header p {
 .pagination button:first-child,
 .pagination button:last-child {
   background-color: none;
-  color: var(--light);
+  color: var(--cool-gray);
   font-size: 1.1rem;
   font-weight: 200;
   border: none;
