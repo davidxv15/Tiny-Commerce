@@ -31,6 +31,10 @@
     border-radius: var(--radius);
     border: 1px solid var(--mintLeaf);
   }
+
+  #product-image:hover {
+    
+  }
   
   #product-price {
     font-size: rem;
