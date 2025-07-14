@@ -35,7 +35,7 @@
   #product-price {
     font-size: rem;
     font-weight: bold;
-    color: var(--soft-gray);
+    color: var(--cool-gray);
   }
   
   .add-to-cart {
