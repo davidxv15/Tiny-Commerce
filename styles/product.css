@@ -30,6 +30,7 @@
     height: auto;
     border-radius: var(--radius);
     border: 1px solid var(--mintLeaf);
+    transition: transform 0.3s ease-in-out;
   }
 
   #product-image:hover {
