@@ -39,7 +39,7 @@
   
   #product-price {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 300;
     color: var(--cool-gray);
   }
   
