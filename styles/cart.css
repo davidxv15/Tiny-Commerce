@@ -106,7 +106,7 @@
   background: none;
   border: none;
   color: var(--soft-gray);
-  /* transform: translateY(-0.3rem); */
+  transform: translateY(-0.5rem);
 }
 
 .qty-btn:hover {
