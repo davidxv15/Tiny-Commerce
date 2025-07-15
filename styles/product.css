@@ -42,6 +42,7 @@
     font-weight: 300;
     color: var(--cool-gray);
     margin: auto;
+    transform: translateY(-12px)
   }
   
   .add-to-cart {
