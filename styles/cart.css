@@ -117,6 +117,7 @@
 }
 
 .qty {
+  /* FONT HERE IS IMPORTANT- CHECK SAMPLE PAGE */
   font-family: var(--font-secondary);
   color: var(--mint);
   font-weight: bold;
@@ -128,7 +129,7 @@
 .qty:hover {
   border-radius: 100%;
   box-shadow: 0 0 24px var(--mintLeaf);
-  cursor:default;
+  cursor: default;
 }
 
 .remove-btn {
@@ -143,7 +144,7 @@
   color: var(--cool-gray);
   border: 1px solid var(--light);
   border-radius: 22px;
-  cursor:auto;
+  cursor: auto;
   transition: transform 0.3s ease-in-out;
   opacity: 0.8;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16), 1px 1px 0px #fff;
