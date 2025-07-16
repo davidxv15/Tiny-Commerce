@@ -129,7 +129,6 @@
 
 .qty:hover {
   border-radius: 100%;
-  transform: scale(1.15);
   cursor: crosshair;
   color: var(--mintLeaf);
 }
