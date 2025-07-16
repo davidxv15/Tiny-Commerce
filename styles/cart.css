@@ -121,7 +121,7 @@
   font-family: var(--font-secondary);
   color: var(--mint);
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin: 0 0 -0.5rem 2rem;
   transform: translateY(1rem);
   transition: scale 0.5s ease-in-out;
