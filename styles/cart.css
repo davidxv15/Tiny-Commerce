@@ -128,7 +128,7 @@
 
 .qty:hover {
   border-radius: 100%;
-  box-shadow: 0 0 24px var(--mintLeaf);
+  transform: scale(1.15);
   cursor: default;
 }
 
