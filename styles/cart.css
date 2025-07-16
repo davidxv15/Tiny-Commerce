@@ -131,6 +131,7 @@
   border-radius: 100%;
   transform: scale(1.15);
   cursor: default;
+  color: var(--mintLeaf);
 }
 
 .remove-btn {
