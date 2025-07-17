@@ -86,6 +86,7 @@
 }
 
 .cart-item h3 {
+  display: flex;
   font-size: 2rem;
   color: var(--mint);
   margin-left: 0;
