@@ -87,6 +87,7 @@
 .cart-item h3 {
   font-size: 2rem;
   color: var(--mint);
+  margin-left: -1rem;
 }
 
 .cart-item p {
