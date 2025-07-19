@@ -180,7 +180,7 @@
   font-family: var(--primary);
   font-weight: 300;
   color: var(--light);
-  transform: translateX(1rem);
+  transform: translateX(-1rem);
 }
 
 .cart-controls p {
