@@ -169,7 +169,7 @@
 }
 
 .cart-total {
-  text-align: center;
+  text-align: right;
   font-size: 2rem;
   color: var(--light);
 }
