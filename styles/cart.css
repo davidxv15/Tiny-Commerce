@@ -171,6 +171,7 @@
 .cart-total {
   text-align: right;
   font-size: 2rem;
+  font-weight: 00;
   color: var(--light);
 }
 
