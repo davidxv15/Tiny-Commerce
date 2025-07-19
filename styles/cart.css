@@ -121,7 +121,6 @@
 }
 
 .qty {
-  /* FONT HERE IS IMPORTANT- CHECK SAMPLE PAGE */
   font-family: var(--font-primary);
   color: var(--mint);
   font-weight: bold;
