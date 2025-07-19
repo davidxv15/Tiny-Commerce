@@ -74,6 +74,7 @@
 .cart-item img {
   max-width: 14em;
   width: 8em;
+  height: 12em;
   cursor: crosshair;
   border-radius: var(--radius);
   margin-left: 0;
