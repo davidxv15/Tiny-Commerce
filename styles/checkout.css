@@ -168,9 +168,8 @@ input::placeholder, textarea::placeholder {
   transform: scale(1.1);
   transition: transform 0.4s ease-in-out;
   box-shadow: 0 0 12px var(--mint);
-  color: black;
+  color: var(--primary);
   background-color: var(--cool-gray);
-  font-size: 1.1rem;
 }
 
 @media (max-width: 768px) {
