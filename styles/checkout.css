@@ -169,7 +169,7 @@ input::placeholder, textarea::placeholder {
   transition: transform 0.4s ease-in-out;
   box-shadow: 0 0 12px var(--mint);
   color: var(--primary);
-  background-color: var(--cool-gray);
+  background-color: var(--light);
 }
 
 @media (max-width: 768px) {
