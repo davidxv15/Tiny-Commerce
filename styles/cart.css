@@ -177,6 +177,7 @@
   text-decoration:overline;
   text-decoration-color: var(--mint);
   text-decoration-thickness: 5px;
+  text-decoration-style: double;
   font-weight: 200;
   color: var(--light);
   padding: .5rem;
