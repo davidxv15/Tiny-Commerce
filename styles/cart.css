@@ -179,8 +179,8 @@
   text-decoration-thickness: 5px;
   text-decoration-style: double;
   font-weight: 200;
-  color: var(--cool-gray);
-  padding: .5rem;
+  color: var(--light);
+  padding: .8rem;
 }
 
 .cart-controls {
