@@ -157,7 +157,7 @@ input::placeholder, textarea::placeholder {
   padding: 0.7rem 1.5rem;
   margin: -1.8rem 1rem;
   border-radius: var(--radius);
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
   transition: background-color var(--transition), 
   transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
