@@ -173,7 +173,7 @@
 .cart-total {
   font-family: var(--font-primary);
   text-align: right;
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-decoration:overline;
   font-weight: 200;
   color: var(--light);
