@@ -181,6 +181,7 @@
   font-weight: 200;
   color: var(--light);
   padding: .8rem;
+  padding-top: 1.8rem;
 }
 
 .cart-controls {
