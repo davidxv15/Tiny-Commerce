@@ -175,6 +175,7 @@
   text-align: right;
   font-size: 2.1rem;
   text-decoration:overline;
+  text-decoration-color: var(--mint);
   font-weight: 200;
   color: var(--light);
   padding: .5rem;
