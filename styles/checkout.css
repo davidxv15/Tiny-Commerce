@@ -69,6 +69,7 @@
 
 .product-img:hover {
   transform: scale(1.2);
+  cursor: crosshair;
 }
 
 .checkout-item .product-name {
