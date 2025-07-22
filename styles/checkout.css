@@ -93,7 +93,7 @@
   display: flex;
   font-size: 2rem;
   color: var(--light-black);
-  transform: translateY(.7em);
+  transform: translateY(0.7em);
 }
 
 .checkout-total {
@@ -127,10 +127,10 @@
 #checkout-form input,
 #checkout-form textarea {
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.3rem;
   color: var(--light-gray);
-  border: .5px solid var(--mint);
+  border: 0.5px solid var(--mint);
   border-bottom: 1.6px solid var(--mint);
   border-radius: var(--radius);
   background: transparent;
@@ -144,9 +144,10 @@
   outline: none;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: var(--mint);
-  opacity: .25;
+  opacity: 0.25;
 }
 
 /* Submit Button */
@@ -162,8 +163,8 @@ input::placeholder, textarea::placeholder {
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color var(--transition), 
-  transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: background-color var(--transition),
+    transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 /* Button Hover State */
