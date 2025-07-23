@@ -40,12 +40,11 @@
 
 .cart-view h1 {
   font-family: var(--font-primary);
+  text-align: center;
   font-size: 3rem;
   font-weight: 400;
-  margin: 1rem 0 1rem;
-  padding: 2rem;
-  text-align: center;
-  color: var(--soft-gray);
+  color: var(--light-gray);
+  /* transition: transform 0.1s ease; */
   transition: transform 0.3s ease-in-out;
 }
 
