@@ -50,7 +50,7 @@
 }
 
 .cart-view h1:hover {
-  transform: scale(1.80);
+  transform: scale(1.08);
   cursor: crosshair;
 }
 
