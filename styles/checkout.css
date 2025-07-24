@@ -28,7 +28,7 @@
 
 .checkout-view h1:hover {
   transform: scale(1.08);
-  cursor: crosshair;
+  cursor: cell;
 }
 
 /* === CONTAINER LAYOUT === */
