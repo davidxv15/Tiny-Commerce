@@ -144,8 +144,8 @@
 
 #checkout-form input:focus,
 #checkout-form textarea:focus {
-  border-color: var(--green);
-  outline: none;
+  /* border-color: var(--mint); */
+  outline-color: var(--mint);
 }
 
 input::placeholder,
