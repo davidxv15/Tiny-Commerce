@@ -139,7 +139,7 @@
   border-radius: var(--radius);
   background: transparent;
   font-family: var(--font-primary);
-  cursor: default;
+  cursor: auto;
 }
 
 #checkout-form input:focus,
