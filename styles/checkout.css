@@ -84,6 +84,10 @@
   transition: transform 0.4s ease;
 }
 
+.checkout-item a { 
+  text-decoration: none;
+}
+
 .product-name:hover {
   transform: scale(1.2);
 }
