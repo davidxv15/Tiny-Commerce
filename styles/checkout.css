@@ -15,13 +15,14 @@
   font-size: 3rem;
   font-weight: 400;
   color: var(--light-gray);
+  margin: auto;
   transition: transform 0.1s ease;
 }
 
 .horizontal-line {
   width: 25%;
   margin: auto;
-  margin-top: -2rem;
+  /* margin-top: -2rem; */
 }
 
 .checkout-view h1:hover {
