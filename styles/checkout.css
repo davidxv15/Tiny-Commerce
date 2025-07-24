@@ -68,7 +68,7 @@
   width: 8rem;
   border-radius: var(--radius);
   border: 1px solid var(--medium-gray);
-  transition: transform 0.1s ease;
+  transition: transform 0.4s ease;
 }
 
 .product-img:hover {
