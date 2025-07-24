@@ -81,7 +81,7 @@
   font-weight: 300;
   margin-bottom: 0.25rem;
   display: block;
-  transition: transform 0.1s ease;
+  transition: transform 0.4s ease;
 }
 
 .product-name:hover {
