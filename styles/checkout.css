@@ -84,6 +84,10 @@
   transition: transform 0.4s ease;
 }
 
+.checkout-item .product-img:hover {
+  color:red;
+}
+
 .product-name:hover {
   transform: scale(1.2);
   color: var(--mint);
