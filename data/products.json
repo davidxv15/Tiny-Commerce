@@ -488,5 +488,12 @@
     "description": "For small pets.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=70"
+  },
+  {
+    "id": 71,
+    "name": "Mesh Backpack",
+    "description": "For small pets.",
+    "price": 119.99,
+    "image": "https://picsum.photos/300/200?random=71"
   }
 ]
