@@ -429,35 +429,35 @@
   {
     "id": 62,
     "name": "Leather Backpack",
-    "description": "Luxury Carrier.",
+    "description": "Luxury carrier.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=62"
   },
   {
     "id": 63,
     "name": "Braided Leash",
-    "description": "Strong and Stylish.",
+    "description": "Strong and stylish.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=63"
   },
   {
     "id": 64,
     "name": "Canvas Leash",
-    "description": "For Thee Walk.",
+    "description": "For thee Walk.",
     "price": 19.99,
     "image": "https://picsum.photos/300/200?random=64"
   },
   {
     "id": 65,
     "name": "Pleather Leash",
-    "description": "Strong Lead.",
+    "description": "Strong lead.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=65"
   },
   {
     "id": 66,
     "name": "Mesh Jacket Collar",
-    "description": "Breathable Fabric Body Collar.",
+    "description": "Breathable fabric body collar.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=66"
   },
