@@ -478,14 +478,14 @@
   {
     "id": 69,
     "name": "Large Cat Hoodie",
-    "description": "for large cool cats.",
+    "description": "For large cool cats.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=69"
   },
   {
     "id": 70,
     "name": "Small Dog Hoodie",
-    "description": "For small pets.",
+    "description": "For small, cool dogs.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=70"
   },
