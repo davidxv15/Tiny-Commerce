@@ -471,14 +471,14 @@
   {
     "id": 68,
     "name": "Medium Cat Hoodie",
-    "description": "For Medium Cool Cats.",
+    "description": "For medium cool cats.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=68"
   },
   {
     "id": 69,
     "name": "Large Cat Hoodie",
-    "description": "For Large Cool Cats.",
+    "description": "for large cool cats.",
     "price": 119.99,
     "image": "https://picsum.photos/300/200?random=69"
   },
