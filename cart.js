@@ -14,47 +14,54 @@ fetch("./data/products.json")
     cart.forEach(item => {
       const product = products.find(p => p.id === item.id);
       if (!product) return;
-    
+
       const itemTotal = product.price * item.quantity;
       total += itemTotal;
-    
+
       const productEl = document.createElement('div');
       productEl.className = 'cart-item';
-    
-      // Image
+
+      // --- Image as a link ---
+      const productLink = document.createElement('a');
+      productLink.href = `product.html?id=${product.id}`;
+      productLink.className = 'cart-product-link';
+
       const img = document.createElement('img');
       img.src = product.image;
       img.alt = product.name;
       img.style.width = '15rem';
-    
-      // Title
+
+      productLink.appendChild(img);
+
+      // --- Title as a link ---
+      const titleLink = document.createElement('a');
+      titleLink.href = `product.html?id=${product.id}`;
+      titleLink.className = 'cart-title-link';
+
       const title = document.createElement('h3');
       title.textContent = product.name;
-    
-      // Price
-      const price = document.createElement('p');
-      price.textContent = `$${product.price.toFixed(2)}`;
-    
-      // Quantity controls
+      titleLink.appendChild(title);
+
+      // --- Quantity controls ---
       const quantityControls = document.createElement('div');
       quantityControls.innerHTML = `
         <button class="qty-btn" data-action="decrease">−</button>
         <span class="qty">${item.quantity}</span>
         <button class="qty-btn" data-action="increase">+</button>
       `;
-    
-      // Remove button
+
+      // --- Remove button ---
       const removeBtn = document.createElement('button');
       removeBtn.textContent = 'Remove';
       removeBtn.className = 'remove-btn';
-    
-      // Event Listeners
+
+      // --- Event Listeners ---
       quantityControls.querySelector('[data-action="increase"]').addEventListener('click', () => {
         item.quantity++;
         localStorage.setItem('cart', JSON.stringify(cart));
         location.reload();
       });
-    
+
       quantityControls.querySelector('[data-action="decrease"]').addEventListener('click', () => {
         if (item.quantity > 1) {
           item.quantity--;
@@ -64,66 +71,66 @@ fetch("./data/products.json")
         localStorage.setItem('cart', JSON.stringify(cart));
         location.reload();
       });
-    
+
       removeBtn.addEventListener('click', () => {
         const index = cart.findIndex(i => i.id === item.id);
         if (index > -1) cart.splice(index, 1);
         localStorage.setItem('cart', JSON.stringify(cart));
         location.reload();
       });
-    
-      // Subtotal
+
+      // --- Subtotal ---
       const subtotal = document.createElement('p');
       subtotal.innerHTML = `Subtotal: $${itemTotal.toFixed(2)}`;
-    
-      const divider = document.createElement('hr');
-    
-      // Image column
-const imgCol = document.createElement('div');
-imgCol.className = 'cart-img';
-imgCol.appendChild(img);
 
-// Info column
-const infoCol = document.createElement('div');
-infoCol.className = 'cart-info';
-infoCol.innerHTML = `
-  <h3>${product.name}</h3>
-  <p>${product.description}</p>
-  <p> $${product.price.toFixed(2)}</p>
-`;
+      // --- Image column ---
+      const imgCol = document.createElement('div');
+      imgCol.className = 'cart-img';
+      imgCol.appendChild(productLink);
 
-// Controls column
-const controlCol = document.createElement('div');
-controlCol.className = 'cart-controls';
-controlCol.appendChild(quantityControls);
-controlCol.appendChild(subtotal);
-controlCol.appendChild(removeBtn);
+      // --- Info column (name as link, description, price) ---
+      const infoCol = document.createElement('div');
+      infoCol.className = 'cart-info';
+      infoCol.appendChild(titleLink);
 
-// Assemble horizontal layout
-productEl.appendChild(imgCol);
-productEl.appendChild(infoCol);
-productEl.appendChild(controlCol);
-cartContainer.appendChild(productEl);
+      // Product description & price
+      const desc = document.createElement('p');
+      desc.textContent = product.description;
+      const price = document.createElement('p');
+      price.textContent = `$${product.price.toFixed(2)}`;
+      infoCol.appendChild(desc);
+      infoCol.appendChild(price);
 
-  // total after tax
+      // --- Controls column ---
+      const controlCol = document.createElement('div');
+      controlCol.className = 'cart-controls';
+      controlCol.appendChild(quantityControls);
+      controlCol.appendChild(subtotal);
+      controlCol.appendChild(removeBtn);
+
+      // --- Assemble horizontal layout ---
+      productEl.appendChild(imgCol);
+      productEl.appendChild(infoCol);
+      productEl.appendChild(controlCol);
+      cartContainer.appendChild(productEl);
     });
+
+    // --- Total at the bottom ---
     const totalEl = document.createElement('div');
-totalEl.className = 'cart-total';
-totalEl.innerHTML = `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
-cartContainer.appendChild(totalEl);
-    
-    // checkout button
-const checkoutBtnContainer = document.getElementById('cart-checkout-btn-container');
-checkoutBtnContainer.innerHTML = ''; // Clear previous (in case of reload)
-const checkoutBtn = document.createElement('button');
-checkoutBtn.textContent = 'Go to Checkout';
-checkoutBtn.className = 'go-checkout-btn';
-checkoutBtn.onclick = () => {
-  window.location.href = 'checkout.html';
-};
-checkoutBtnContainer.appendChild(checkoutBtn);
+    totalEl.className = 'cart-total';
+    totalEl.innerHTML = `<p><strong>Total: $${total.toFixed(2)}</strong></p>`;
+    cartContainer.appendChild(totalEl);
 
-
+    // --- Checkout button ---
+    const checkoutBtnContainer = document.getElementById('cart-checkout-btn-container');
+    checkoutBtnContainer.innerHTML = ''; // Clear previous (in case of reload)
+    const checkoutBtn = document.createElement('button');
+    checkoutBtn.textContent = 'Go to Checkout';
+    checkoutBtn.className = 'go-checkout-btn';
+    checkoutBtn.onclick = () => {
+      window.location.href = 'checkout.html';
+    };
+    checkoutBtnContainer.appendChild(checkoutBtn);
   })
   .catch((err) => {
     console.error("Error loading cart:", err);
